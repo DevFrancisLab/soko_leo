@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: llmapi
+Version: 1.0.9
+Summary: Do you want to talk directly to the LLMs? Try llmapi.
+Home-page: https://github.com/llmapi/
+Author: llmapi
+Author-email: llmapi@163.com
+License: MIT
+Keywords: LLM OpenAPI LargeLanguageModel GPT3 ChatGPT
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: English
+Classifier: Topic :: Utilities
+Classifier: Topic :: Terminals
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: requests
+
+# llmapi
+
+llms api
+
+## 安装(Install)
+
+```bash
+sudo pip install llmapi
+```
+
+## 用法(Usage)
+TODO
+
+
