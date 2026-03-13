@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+@layer base {
+  :root {
+    /* SokoLeo Brand Colors */
+    --forest: 163 59% 30%;        /* #1F7A63 */
+    --forest-foreground: 0 0% 100%;
+    --accent-green: 146 61% 47%;  /* #2FBF71 */
+    --accent-green-foreground: 0 0% 100%;
+    --earth: 27 44% 37%;          /* #8B5E34 */
+    --earth-foreground: 0 0% 100%;
+
+    --background: 40 20% 96%;     /* #F6F5F0 cream */
+    --foreground: 0 0% 11%;       /* #1C1C1C */
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 11%;
+
+    --primary: 163 59% 30%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 146 61% 94%;
+    --secondary-foreground: 163 59% 25%;
+
+    --muted: 40 15% 92%;
+    --muted-foreground: 220 9% 43%;
+
+    --accent: 146 61% 47%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 40 15% 88%;
+    --input: 40 15% 88%;
+    --ring: 163 59% 30%;
+    --radius: 1rem;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(163 59% 25%), hsl(163 59% 35%));
+    --gradient-card: linear-gradient(135deg, hsl(146 61% 47%), hsl(163 59% 30%));
+    --gradient-warm: linear-gradient(135deg, hsl(27 44% 37%), hsl(35 60% 50%));
+    --gradient-surface: linear-gradient(180deg, hsl(40 20% 96%), hsl(40 20% 98%));
+
+    /* Shadows */
+    --shadow-card: 0 4px 20px -4px hsl(163 59% 30% / 0.15), 0 2px 8px -2px hsl(0 0% 0% / 0.08);
+    --shadow-hero: 0 20px 60px -10px hsl(163 59% 30% / 0.35);
+    --shadow-btn: 0 4px 14px 0 hsl(163 59% 30% / 0.4);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    font-weight: 700;
+  }
+}
+
+@layer components {
+  .card-soko {
+    @apply bg-card rounded-2xl border border-border;
+    box-shadow: var(--shadow-card);
+  }
+
+  .btn-primary {
+    @apply bg-primary text-primary-foreground rounded-2xl font-semibold px-6 py-3.5 text-base transition-all active:scale-95;
+    box-shadow: var(--shadow-btn);
+  }
+
+  .btn-primary:hover {
+    @apply opacity-90;
+    box-shadow: 0 6px 20px 0 hsl(163 59% 30% / 0.5);
+  }
+
+  .bottom-nav-item {
+    @apply flex flex-col items-center gap-1 py-2 px-3 rounded-xl transition-all text-muted-foreground;
+  }
+
+  .bottom-nav-item.active {
+    @apply text-primary;
+  }
+
+  .chat-bubble-user {
+    @apply bg-primary text-primary-foreground rounded-2xl rounded-br-sm px-4 py-3 max-w-xs ml-auto;
+  }
+
+  .chat-bubble-ai {
+    @apply bg-secondary text-secondary-foreground rounded-2xl rounded-bl-sm px-4 py-3 max-w-xs;
+    border: 1px solid hsl(var(--accent-green) / 0.2);
+  }
+}
+
+/* Organic blob shapes */
+.blob-shape {
+  border-radius: 60% 40% 70% 30% / 40% 60% 30% 70%;
+}
+
+.blob-shape-2 {
+  border-radius: 40% 60% 30% 70% / 60% 40% 70% 30%;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Safe area for mobile */
+.safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom, 16px);
+}
