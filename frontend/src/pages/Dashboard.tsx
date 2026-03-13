@@ -1,6 +1,7 @@
 import AppLayout from "@/components/AppLayout";
-import { TrendingUp, TrendingDown, Cloud, Sun, CloudRain, MessageCircle, Bell, ArrowRight } from "lucide-react";
+import { TrendingUp, TrendingDown, Cloud, Sun, CloudRain, MessageCircle, Bell, ArrowRight, LogOut } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import { useAuth } from "@/context/AuthContext";
 
 const commodities = [
   { name: "Maize", unit: "per 90kg bag", price: "KSh 3,800", change: "+5%", trend: "up", icon: "🌽" },
@@ -16,6 +17,7 @@ const alerts = [
 
 const Dashboard = () => {
   const navigate = useNavigate();
+  const { currentUser, logout } = useAuth();
   const hour = new Date().getHours();
   const greeting = hour < 12 ? "Good Morning" : hour < 17 ? "Good Afternoon" : "Good Evening";
 
@@ -26,13 +28,18 @@ const Dashboard = () => {
         <div className="flex items-start justify-between">
           <div>
             <p className="text-muted-foreground text-sm font-medium">{greeting} 👋</p>
-            <h1 className="text-2xl font-extrabold text-foreground mt-0.5">Hello, Farmer</h1>
+            <h1 className="text-2xl font-extrabold text-foreground mt-0.5">Welcome, {currentUser?.username}</h1>
             <p className="text-sm text-muted-foreground mt-1">Thursday, 26 Feb 2026 · Nairobi</p>
           </div>
-          <button className="relative p-2.5 bg-card rounded-2xl shadow-card">
-            <Bell size={22} className="text-foreground" />
-            <span className="absolute top-1.5 right-1.5 w-2.5 h-2.5 bg-accent rounded-full border-2 border-card" />
-          </button>
+          <div className="flex gap-2">
+            <button onClick={async () => { await logout(); navigate('/login'); }} className="p-2.5 bg-card rounded-2xl shadow-card hover:bg-muted transition-colors">
+              <LogOut size={22} className="text-foreground" />
+            </button>
+            <button className="relative p-2.5 bg-card rounded-2xl shadow-card">
+              <Bell size={22} className="text-foreground" />
+              <span className="absolute top-1.5 right-1.5 w-2.5 h-2.5 bg-accent rounded-full border-2 border-card" />
+            </button>
+          </div>
         </div>
 
         {/* Alert Banner */}
