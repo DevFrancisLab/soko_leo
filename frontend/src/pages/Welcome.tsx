@@ -78,7 +78,7 @@ const Welcome = () => {
             onClick={() => navigate("/dashboard")}
             className="btn-primary w-full text-center text-lg mb-4"
           >
-            Get Started — It's Free
+            Get Started
           </button>
           <p className="text-center text-sm text-muted-foreground">
             Works offline too. No expensive data needed.
