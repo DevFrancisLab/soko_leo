@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'corsheaders',
     'rest_framework_simplejwt.token_blacklist',
     'accounts',
+    'django_celery_beat',
+    'django_celery_results',
 ]
 
 MIDDLEWARE = [
@@ -124,11 +126,32 @@ STATIC_URL = 'static/'
 # CORS (for local development)
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
+    "http://localhost:3000",
 ]
+
+# Enable CORS for the above origins
+CORS_ALLOW_CREDENTIALS = True
 
 # Django REST framework settings
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     ),
+}
+
+# Celery Configuration
+CELERY_BROKER_URL = 'django://'  # Use Django database as broker
+CELERY_RESULT_BACKEND = 'django-db'  # Store results in database
+CELERY_ACCEPT_CONTENT = ['json']
+CELERY_TASK_SERIALIZER = 'json'
+CELERY_RESULT_SERIALIZER = 'json'
+CELERY_TIMEZONE = TIME_ZONE
+
+# Celery Beat Schedule
+from celery.schedules import crontab
+CELERY_BEAT_SCHEDULE = {
+    'send-market-insights-daily': {
+        'task': 'backend.tasks.send_market_insights',
+        'schedule': crontab(hour=9, minute=0),  # Daily at 9:00 AM
+    },
 }

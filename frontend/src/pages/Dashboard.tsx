@@ -1,7 +1,7 @@
 import AppLayout from "@/components/AppLayout";
 import { TrendingUp, TrendingDown, Cloud, Sun, CloudRain, MessageCircle, Bell, ArrowRight, LogOut } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import { useAuth } from "@/context/AuthContext";
+import { useAuth } from "@/context/useAuth";
 
 const commodities = [
   { name: "Maize", unit: "per 90kg bag", price: "KSh 3,800", change: "+5%", trend: "up", icon: "🌽" },
@@ -80,6 +80,21 @@ const Dashboard = () => {
           <div className="flex-1">
             <p className="font-bold text-foreground">Ask SokoLeo AI</p>
             <p className="text-sm text-muted-foreground">"Where can I sell tomatoes today?"</p>
+          </div>
+          <ArrowRight size={20} className="text-muted-foreground flex-shrink-0" />
+        </button>
+
+        {/* Market Insights Access */}
+        <button
+          onClick={() => navigate("/market-insight")}
+          className="w-full card-soko p-4 flex items-center gap-4 text-left hover:shadow-hero transition-shadow active:scale-[0.98]"
+        >
+          <div className="w-12 h-12 rounded-2xl flex items-center justify-center flex-shrink-0 animate-pulse-green" style={{background: "var(--gradient-card)"}}>
+            <TrendingUp size={24} className="text-white" />
+          </div>
+          <div className="flex-1">
+            <p className="font-bold text-foreground">Get AI Market Insights</p>
+            <p className="text-sm text-muted-foreground">Analyze market, weather & crop data</p>
           </div>
           <ArrowRight size={20} className="text-muted-foreground flex-shrink-0" />
         </button>

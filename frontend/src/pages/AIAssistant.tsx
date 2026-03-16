@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import AppLayout from "@/components/AppLayout";
 import { Send, Mic, Bot, User } from "lucide-react";
+import { useAuth } from "@/context/useAuth";
 
 interface Message {
   id: number;
@@ -16,19 +17,6 @@ const suggestions = [
   "Weather forecast this week?",
 ];
 
-const aiResponses: Record<string, string> = {
-  default: "I'm checking the latest market data for you... 📊\n\nBased on current prices and your location (Nairobi), here are my recommendations:\n\n🏪 **Wakulima Market** — Best prices today\n• Distance: 12 km\n• Tomatoes: KSh 1,600/crate (+10% above average)\n\n🏪 **City Market** — Second best option\n• Distance: 8 km\n• Tomatoes: KSh 1,480/crate\n\n💡 **My advice:** Head to Wakulima early morning (6–9am) for the best deals. Demand is high today due to weekend market.",
-  tomatoes: "Great question! Here's today's tomato market intel 🍅\n\n**Top 3 Markets to Sell:**\n1. 🥇 Wakulima Market — KSh 1,600/crate (12km)\n2. 🥈 City Market — KSh 1,480/crate (8km)\n3. 🥉 Gikomba Market — KSh 1,380/crate (15km)\n\n⚠️ **Alert:** Prices are expected to drop 15% by Friday. Sell within the next 2 days for best returns.\n\n📞 Need a buyer? Call Wakulima: +254 700 123 456",
-  maize: "Here's the maize market situation near Nakuru 🌽\n\n**Current Price:** KSh 3,800 per 90kg bag\n📈 Up 5% from last week\n\n**Best Buyers:**\n• Kenya Grain Growers Co-op — KSh 3,850/bag\n• Unga Group, Nakuru — KSh 3,780/bag\n\n✅ **Recommendation:** This is a good time to sell. Prices typically peak in March before the long rains.",
-};
-
-function getAiResponse(input: string): string {
-  const lower = input.toLowerCase();
-  if (lower.includes("tomato")) return aiResponses.tomatoes;
-  if (lower.includes("maize") || lower.includes("corn")) return aiResponses.maize;
-  return aiResponses.default;
-}
-
 const initialMessages: Message[] = [
   {
     id: 1,
@@ -39,6 +27,7 @@ const initialMessages: Message[] = [
 ];
 
 const AIAssistant = () => {
+  const { api } = useAuth();
   const [messages, setMessages] = useState<Message[]>(initialMessages);
   const [input, setInput] = useState("");
   const [isTyping, setIsTyping] = useState(false);
@@ -48,18 +37,24 @@ const AIAssistant = () => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages, isTyping]);
 
-  const sendMessage = (text: string) => {
+  const sendMessage = async (text: string) => {
     if (!text.trim()) return;
     const userMsg: Message = { id: Date.now(), role: "user", text, time: "Now" };
     setMessages((prev) => [...prev, userMsg]);
     setInput("");
     setIsTyping(true);
 
-    setTimeout(() => {
-      const aiMsg: Message = { id: Date.now() + 1, role: "ai", text: getAiResponse(text), time: "Now" };
+    try {
+      const response = await api.post('/ai/chat/', { message: text });
+      const aiText = response.data.response;
+      const aiMsg: Message = { id: Date.now() + 1, role: "ai", text: aiText, time: "Now" };
       setMessages((prev) => [...prev, aiMsg]);
+    } catch (error) {
+      const errorMsg: Message = { id: Date.now() + 1, role: "ai", text: "Sorry, I'm having trouble connecting. Please try again.", time: "Now" };
+      setMessages((prev) => [...prev, errorMsg]);
+    } finally {
       setIsTyping(false);
-    }, 1400);
+    }
   };
 
   const renderText = (text: string) => {

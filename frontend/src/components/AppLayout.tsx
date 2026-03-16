@@ -1,8 +1,9 @@
 import { useNavigate, useLocation } from "react-router-dom";
-import { LayoutDashboard, MessageCircle, MapPin, WifiOff, User } from "lucide-react";
+import { LayoutDashboard, MessageCircle, MapPin, WifiOff, User, TrendingUp } from "lucide-react";
 
 const navItems = [
   { path: "/dashboard", icon: LayoutDashboard, label: "Home" },
+  { path: "/market-insight", icon: TrendingUp, label: "Insights" },
   { path: "/assistant", icon: MessageCircle, label: "AI Chat" },
   { path: "/markets", icon: MapPin, label: "Markets" },
   { path: "/offline", icon: WifiOff, label: "Offline" },

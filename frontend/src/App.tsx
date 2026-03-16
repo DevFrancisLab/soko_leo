@@ -14,6 +14,7 @@ import Markets from "./pages/Markets";
 import OfflineAccess from "./pages/OfflineAccess";
 import Profile from "./pages/Profile";
 import NotFound from "./pages/NotFound";
+import MarketInsights from "./pages/MarketInsights";
 
 const queryClient = new QueryClient();
 
@@ -29,7 +30,8 @@ const App = () => (
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
             <Route path="/dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
-            <Route path="/assistant" element={<AIAssistant />} />
+            <Route path="/market-insight" element={<ProtectedRoute><MarketInsights /></ProtectedRoute>} />
+            <Route path="/assistant" element={<ProtectedRoute><AIAssistant /></ProtectedRoute>} />
             <Route path="/markets" element={<Markets />} />
             <Route path="/offline" element={<OfflineAccess />} />
             <Route path="/profile" element={<Profile />} />

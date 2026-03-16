@@ -1,5 +1,6 @@
-import React, { createContext, useContext, useState, ReactNode } from 'react';
-import api from '@/api/axios';
+/* eslint-disable react-refresh/only-export-components */
+import React, { createContext, useState, ReactNode } from 'react';
+import { createApi } from '@/api/axios';
 
 interface User {
   username: string;
@@ -9,17 +10,10 @@ interface AuthContextType {
   currentUser: User | null;
   login: (username: string, password: string) => Promise<void>;
   logout: () => Promise<void>;
+  api: ReturnType<typeof createApi>;
 }
 
-const AuthContext = createContext<AuthContextType | undefined>(undefined);
-
-export const useAuth = () => {
-  const context = useContext(AuthContext);
-  if (!context) {
-    throw new Error('useAuth must be used within an AuthProvider');
-  }
-  return context;
-};
+export const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
 interface AuthProviderProps {
   children: ReactNode;
@@ -28,16 +22,40 @@ interface AuthProviderProps {
 export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
   const [currentUser, setCurrentUser] = useState<User | null>(null);
 
-  const login = async (username: string, password: string) => {
+  // Ensure we keep the user logged in across refreshes when an access token exists.
+  // This avoids situations where the auth token is present but `currentUser` is null,
+  // which would prevent Axios from attaching the Authorization header.
+  const decodeTokenUsername = (token: string) => {
     try {
-      const response = await api.post('/accounts/login/', { username, password });
-      const { access, refresh } = response.data;
-      localStorage.setItem('access_token', access);
-      localStorage.setItem('refresh_token', refresh);
-      setCurrentUser({ username });
-    } catch (error) {
-      throw error;
+      const payload = token.split('.')[1];
+      const decoded = JSON.parse(atob(payload.replace(/-/g, '+').replace(/_/g, '/')));
+      return decoded?.username || decoded?.user_id || null;
+    } catch {
+      return null;
     }
+  };
+
+  React.useEffect(() => {
+    const accessToken = localStorage.getItem('access_token');
+    if (accessToken && !currentUser) {
+      const username = decodeTokenUsername(accessToken) || 'user';
+      setCurrentUser({ username });
+    }
+  }, [currentUser]);
+
+  // Create an Axios instance that reads the current Auth state for the access token.
+  const api = createApi(() => {
+    // Always attach Authorization when an access token exists so API calls
+    // succeed even if `currentUser` state is not yet hydrated.
+    return localStorage.getItem('access_token');
+  });
+
+  const login = async (username: string, password: string) => {
+    const response = await api.post('/accounts/login/', { username, password });
+    const { access, refresh } = response.data;
+    localStorage.setItem('access_token', access);
+    localStorage.setItem('refresh_token', refresh);
+    setCurrentUser({ username });
   };
 
   const logout = async () => {
@@ -58,6 +76,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     currentUser,
     login,
     logout,
+    api,
   };
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;

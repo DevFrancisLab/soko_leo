@@ -17,7 +17,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 
+from .views import MarketInsightView, AIChatView
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/accounts/', include('accounts.urls')),
+    path('api/ai/market-insight/', MarketInsightView.as_view(), name='market_insight'),
+    path('api/ai/chat/', AIChatView.as_view(), name='ai_chat'),
 ]
