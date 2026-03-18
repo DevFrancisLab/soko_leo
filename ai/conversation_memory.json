@@ -1,0 +1,418 @@
+[
+  {
+    "role": "HumanMessage",
+    "content": "where should I sell kales?"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Market Prices:\n{'query': 'where should I sell kales?', 'response_time': 0.87, 'follow_up_questions': None, 'answer': None, 'images': [], 'results': [{'url': 'https://budgetmkononi.com/agri-info/finance/finance-kale/finding-market/', 'title': 'Finding market for kales', 'content': 'There are 2 main marketing channels for farmers like yourself to sell your kales: Informal Markets These are the easiest forms of markets to access.', 'score': 0.6912478, 'raw_content': None}, {'url': 'https://www.hobbyfarms.com/kale-farmers-marketing-tips/', 'title': '5 Ways That Farmers Can Better Market Kale', 'content': 'Display methods, growing tactics and value-added products all factor into selling kale, a nutritious green that people love. Because customers do love to see the fresh piles of bunched kale on the market table, as they can identify it from a great distance, it might pull customers into the booth. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens.', 'score': 0.55449516, 'raw_content': None}, {'url': 'https://www.facebook.com/groups/marketgardeningsuccess/posts/2109168262783568/', 'title': 'How to sell kale at the market?', 'content': 'We sell a few different varieties of kale, bunches are not by weight but by stem, 8-12 stems a bunch depending on size at the time of', 'score': 0.4883572, 'raw_content': None}], 'request_id': 'a5bec32d-3d70-4ce7-816d-33469f5bb7d1'}\n\nProfit & Crop Selection:\n- Plant crops with high local demand and margin.\n- Consider crop rotation to maintain soil fertility.\n- Diversify crops to reduce market risks.\n\n- Combine market info, weather, and profit advice for planning."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "where should I sell kales?"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Market Prices:\n{'query': 'where should I sell kales?', 'follow_up_questions': None, 'answer': None, 'images': [], 'results': [{'url': 'https://www.hobbyfarms.com/kale-farmers-marketing-tips/', 'title': '5 Ways That Farmers Can Better Market Kale - Hobby Farms', 'content': 'Display methods, growing tactics and value-added products all factor into selling kale, a nutritious green that people love. Because customers do love to see the fresh piles of bunched kale on the market table, as they can identify it from a great distance, it might pull customers into the booth. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens.', 'score': 0.56575525, 'raw_content': None}, {'url': 'https://www.facebook.com/groups/marketgardeningsuccess/posts/2109168262783568/', 'title': 'How to sell kale at the market? - Facebook', 'content': 'We sell a few different varieties of kale, bunches are not by weight but by stem, 8-12 stems a bunch depending on size at the time of', 'score': 0.47489962, 'raw_content': None}, {'url': 'https://www.facebook.com/groups/322107732006552/posts/1629731724577473/', 'title': 'Are there any farm stands selling kale right now? - Facebook', 'content': 'Update: sold out of tulips! We should have more soon. . Kale still available! Willett-Stone Farm has Tulips and Kale available!', 'score': 0.40768766, 'raw_content': None}], 'response_time': 0.96, 'request_id': '17346f1b-f5e2-435b-9422-9a948cb48b98'}\n\nProfit & Crop Selection:\n- Plant crops with high local demand and margin.\n- Consider crop rotation to maintain soil fertility.\n- Diversify crops to reduce market risks.\n\nBased on previous farmer questions:\n- HumanMessage: where should I sell kales?\n- AIMessage: Market Prices:\n{'query': 'where should I sell kales?', 'response_time': 0.87, 'follow_up_questions': None, 'answer': None, 'images': [], 'results': [{'url': 'https://budgetmkononi.com/agri-info/finance/finance-kale/finding-market/', 'title': 'Finding market for kales', 'content': 'There are 2 main marketing channels for farmers like yourself to sell your kales: Informal Markets These are the easiest forms of markets to access.', 'score': 0.6912478, 'raw_content': None}, {'url': 'https://www.hobbyfarms.com/kale-farmers-marketing-tips/', 'title': '5 Ways That Farmers Can Better Market Kale', 'content': 'Display methods, growing tactics and value-added products all factor into selling kale, a nutritious green that people love. Because customers do love to see the fresh piles of bunched kale on the market table, as they can identify it from a great distance, it might pull customers into the booth. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens.', 'score': 0.55449516, 'raw_content': None}, {'url': 'https://www.facebook.com/groups/marketgardeningsuccess/posts/2109168262783568/', 'title': 'How to sell kale at the market?', 'content': 'We sell a few different varieties of kale, bunches are not by weight but by stem, 8-12 stems a bunch depending on size at the time of', 'score': 0.4883572, 'raw_content': None}], 'request_id': 'a5bec32d-3d70-4ce7-816d-33469f5bb7d1'}\n\nProfit & Crop Selection:\n- Plant crops with high local demand and margin.\n- Consider crop rotation to maintain soil fertility.\n- Diversify crops to reduce market risks.\n\n- Combine market info, weather, and profit advice for planning.\n- Combine market info, weather, and profit advice for planning."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "test"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Based on previous farmer questions:\n- AIMessage: Market Prices:\n{'query': 'where should I sell kales?', 'response_time': 0.87, 'follow_up_questions': None, 'answer': None, 'images': [], 'results': [{'url': 'https://budgetmkononi.com/agri-info/finance/finance-kale/finding-market/', 'title': 'Finding market for kales', 'content': 'There are 2 main marketing channels for farmers like yourself to sell your kales: Informal Markets These are the easiest forms of markets to access.', 'score': 0.6912478, 'raw_content': None}, {'url': 'https://www.hobbyfarms.com/kale-farmers-marketing-tips/', 'title': '5 Ways That Farmers Can Better Market Kale', 'content': 'Display methods, growing tactics and value-added products all factor into selling kale, a nutritious green that people love. Because customers do love to see the fresh piles of bunched kale on the market table, as they can identify it from a great distance, it might pull customers into the booth. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens.', 'score': 0.55449516, 'raw_content': None}, {'url': 'https://www.facebook.com/groups/marketgardeningsuccess/posts/2109168262783568/', 'title': 'How to sell kale at the market?', 'content': 'We sell a few different varieties of kale, bunches are not by weight but by stem, 8-12 stems a bunch depending on size at the time of', 'score': 0.4883572, 'raw_content': None}], 'request_id': 'a5bec32d-3d70-4ce7-816d-33469f5bb7d1'}\n\nProfit & Crop Selection:\n- Plant crops with high local demand and margin.\n- Consider crop rotation to maintain soil fertility.\n- Diversify crops to reduce market risks.\n\n- Combine market info, weather, and profit advice for planning.\n- HumanMessage: where should I sell kales?\n- AIMessage: Market Prices:\n{'query': 'where should I sell kales?', 'follow_up_questions': None, 'answer': None, 'images': [], 'results': [{'url': 'https://www.hobbyfarms.com/kale-farmers-marketing-tips/', 'title': '5 Ways That Farmers Can Better Market Kale - Hobby Farms', 'content': 'Display methods, growing tactics and value-added products all factor into selling kale, a nutritious green that people love. Because customers do love to see the fresh piles of bunched kale on the market table, as they can identify it from a great distance, it might pull customers into the booth. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens.', 'score': 0.56575525, 'raw_content': None}, {'url': 'https://www.facebook.com/groups/marketgardeningsuccess/posts/2109168262783568/', 'title': 'How to sell kale at the market? - Facebook', 'content': 'We sell a few different varieties of kale, bunches are not by weight but by stem, 8-12 stems a bunch depending on size at the time of', 'score': 0.47489962, 'raw_content': None}, {'url': 'https://www.facebook.com/groups/322107732006552/posts/1629731724577473/', 'title': 'Are there any farm stands selling kale right now? - Facebook', 'content': 'Update: sold out of tulips! We should have more soon. . Kale still available! Willett-Stone Farm has Tulips and Kale available!', 'score': 0.40768766, 'raw_content': None}], 'response_time': 0.96, 'request_id': '17346f1b-f5e2-435b-9422-9a948cb48b98'}\n\nProfit & Crop Selection:\n- Plant crops with high local demand and margin.\n- Consider crop rotation to maintain soil fertility.\n- Diversify crops to reduce market risks.\n\nBased on previous farmer questions:\n- HumanMessage: where should I sell kales?\n- AIMessage: Market Prices:\n{'query': 'where should I sell kales?', 'response_time': 0.87, 'follow_up_questions': None, 'answer': None, 'images': [], 'results': [{'url': 'https://budgetmkononi.com/agri-info/finance/finance-kale/finding-market/', 'title': 'Finding market for kales', 'content': 'There are 2 main marketing channels for farmers like yourself to sell your kales: Informal Markets These are the easiest forms of markets to access.', 'score': 0.6912478, 'raw_content': None}, {'url': 'https://www.hobbyfarms.com/kale-farmers-marketing-tips/', 'title': '5 Ways That Farmers Can Better Market Kale', 'content': 'Display methods, growing tactics and value-added products all factor into selling kale, a nutritious green that people love. Because customers do love to see the fresh piles of bunched kale on the market table, as they can identify it from a great distance, it might pull customers into the booth. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens.', 'score': 0.55449516, 'raw_content': None}, {'url': 'https://www.facebook.com/groups/marketgardeningsuccess/posts/2109168262783568/', 'title': 'How to sell kale at the market?', 'content': 'We sell a few different varieties of kale, bunches are not by weight but by stem, 8-12 stems a bunch depending on size at the time of', 'score': 0.4883572, 'raw_content': None}], 'request_id': 'a5bec32d-3d70-4ce7-816d-33469f5bb7d1'}\n\nProfit & Crop Selection:\n- Plant crops with high local demand and margin.\n- Consider crop rotation to maintain soil fertility.\n- Diversify crops to reduce market risks.\n\n- Combine market info, weather, and profit advice for planning.\n- Combine market info, weather, and profit advice for planning.\n- Combine market info, weather, and profit advice for planning."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "what are current market prices?"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Market Prices:\n{'query': 'current high demand crops in Kenya, market prices, profitable crops Nairobi Mombasa trends', 'follow_up_questions': None, 'answer': None, 'images': [], 'results': [{'url': 'https://www.facebook.com/groups/6664286290366735/posts/9787208354741164/', 'title': 'Which cash crop is now profitable in Kenya?', 'content': 'Okra is the most profitable crop in Kenya right now! We sell Seeds and provide market for export at Ksh 220 per kg. Payment is strictly cash on', 'score': 0.999959, 'raw_content': None}, {'url': 'https://www.facebook.com/graduatefarmer/posts/10-most-profitable-crops-in-kenya-2025-httpsgraduatefarmercoke20250421top-10-mos/981832364129750/', 'title': '10 Most Profitable Crops in Kenya (2025) https ...', 'content': 'You Google 10 most profitable crops in farming. Tomatoes \u2013 80,000 bob per ton Kales \u2013 40,000 bob per ton. Maize \u2013 5,000 per 90kg bag. Tomatoes', 'score': 0.9998579, 'raw_content': None}, {'url': 'https://crazykanairofarming.com/farming-news-in-kenya/', 'title': 'Farming News In Kenya 2026 | Prices, Trends & Alerts', 'content': 'Bulb onion farming is one of the most lucrative agribusiness ventures in Kenya today. The demand for onions in major cities like Nairobi, Mombasa, and Kisumu', 'score': 0.99984276, 'raw_content': None}], 'response_time': 0.8, 'request_id': '42145f2e-d70d-4956-bf8c-7af393af2316'}\n\nProfit & Crop Selection:\n- Plant crops with high local demand and margin.\n- Consider crop rotation to maintain soil fertility.\n- Diversify crops to reduce market risks.\n\nBased on previous farmer questions:\n- AIMessage: Market Prices:\n{'query': 'where should I sell kales?', 'follow_up_questions': None, 'answer': None, 'images': [], 'results': [{'url': 'https://www.hobbyfarms.com/kale-farmers-marketing-tips/', 'title': '5 Ways That Farmers Can Better Market Kale - Hobby Farms', 'content': 'Display methods, growing tactics and value-added products all factor into selling kale, a nutritious green that people love. Because customers do love to see the fresh piles of bunched kale on the market table, as they can identify it from a great distance, it might pull customers into the booth. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens.', 'score': 0.56575525, 'raw_content': None}, {'url': 'https://www.facebook.com/groups/marketgardeningsuccess/posts/2109168262783568/', 'title': 'How to sell kale at the market? - Facebook', 'content': 'We sell a few different varieties of kale, bunches are not by weight but by stem, 8-12 stems a bunch depending on size at the time of', 'score': 0.47489962, 'raw_content': None}, {'url': 'https://www.facebook.com/groups/322107732006552/posts/1629731724577473/', 'title': 'Are there any farm stands selling kale right now? - Facebook', 'content': 'Update: sold out of tulips! We should have more soon. . Kale still available! Willett-Stone Farm has Tulips and Kale available!', 'score': 0.40768766, 'raw_content': None}], 'response_time': 0.96, 'request_id': '17346f1b-f5e2-435b-9422-9a948cb48b98'}\n\nProfit & Crop Selection:\n- Plant crops with high local demand and margin.\n- Consider crop rotation to maintain soil fertility.\n- Diversify crops to reduce market risks.\n\nBased on previous farmer questions:\n- HumanMessage: where should I sell kales?\n- AIMessage: Market Prices:\n{'query': 'where should I sell kales?', 'response_time': 0.87, 'follow_up_questions': None, 'answer': None, 'images': [], 'results': [{'url': 'https://budgetmkononi.com/agri-info/finance/finance-kale/finding-market/', 'title': 'Finding market for kales', 'content': 'There are 2 main marketing channels for farmers like yourself to sell your kales: Informal Markets These are the easiest forms of markets to access.', 'score': 0.6912478, 'raw_content': None}, {'url': 'https://www.hobbyfarms.com/kale-farmers-marketing-tips/', 'title': '5 Ways That Farmers Can Better Market Kale', 'content': 'Display methods, growing tactics and value-added products all factor into selling kale, a nutritious green that people love. Because customers do love to see the fresh piles of bunched kale on the market table, as they can identify it from a great distance, it might pull customers into the booth. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens.', 'score': 0.55449516, 'raw_content': None}, {'url': 'https://www.facebook.com/groups/marketgardeningsuccess/posts/2109168262783568/', 'title': 'How to sell kale at the market?', 'content': 'We sell a few different varieties of kale, bunches are not by weight but by stem, 8-12 stems a bunch depending on size at the time of', 'score': 0.4883572, 'raw_content': None}], 'request_id': 'a5bec32d-3d70-4ce7-816d-33469f5bb7d1'}\n\nProfit & Crop Selection:\n- Plant crops with high local demand and margin.\n- Consider crop rotation to maintain soil fertility.\n- Diversify crops to reduce market risks.\n\n- Combine market info, weather, and profit advice for planning.\n- Combine market info, weather, and profit advice for planning.\n- HumanMessage: test\n- AIMessage: Based on previous farmer questions:\n- AIMessage: Market Prices:\n{'query': 'where should I sell kales?', 'response_time': 0.87, 'follow_up_questions': None, 'answer': None, 'images': [], 'results': [{'url': 'https://budgetmkononi.com/agri-info/finance/finance-kale/finding-market/', 'title': 'Finding market for kales', 'content': 'There are 2 main marketing channels for farmers like yourself to sell your kales: Informal Markets These are the easiest forms of markets to access.', 'score': 0.6912478, 'raw_content': None}, {'url': 'https://www.hobbyfarms.com/kale-farmers-marketing-tips/', 'title': '5 Ways That Farmers Can Better Market Kale', 'content': 'Display methods, growing tactics and value-added products all factor into selling kale, a nutritious green that people love. Because customers do love to see the fresh piles of bunched kale on the market table, as they can identify it from a great distance, it might pull customers into the booth. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens.', 'score': 0.55449516, 'raw_content': None}, {'url': 'https://www.facebook.com/groups/marketgardeningsuccess/posts/2109168262783568/', 'title': 'How to sell kale at the market?', 'content': 'We sell a few different varieties of kale, bunches are not by weight but by stem, 8-12 stems a bunch depending on size at the time of', 'score': 0.4883572, 'raw_content': None}], 'request_id': 'a5bec32d-3d70-4ce7-816d-33469f5bb7d1'}\n\nProfit & Crop Selection:\n- Plant crops with high local demand and margin.\n- Consider crop rotation to maintain soil fertility.\n- Diversify crops to reduce market risks.\n\n- Combine market info, weather, and profit advice for planning.\n- HumanMessage: where should I sell kales?\n- AIMessage: Market Prices:\n{'query': 'where should I sell kales?', 'follow_up_questions': None, 'answer': None, 'images': [], 'results': [{'url': 'https://www.hobbyfarms.com/kale-farmers-marketing-tips/', 'title': '5 Ways That Farmers Can Better Market Kale - Hobby Farms', 'content': 'Display methods, growing tactics and value-added products all factor into selling kale, a nutritious green that people love. Because customers do love to see the fresh piles of bunched kale on the market table, as they can identify it from a great distance, it might pull customers into the booth. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens.', 'score': 0.56575525, 'raw_content': None}, {'url': 'https://www.facebook.com/groups/marketgardeningsuccess/posts/2109168262783568/', 'title': 'How to sell kale at the market? - Facebook', 'content': 'We sell a few different varieties of kale, bunches are not by weight but by stem, 8-12 stems a bunch depending on size at the time of', 'score': 0.47489962, 'raw_content': None}, {'url': 'https://www.facebook.com/groups/322107732006552/posts/1629731724577473/', 'title': 'Are there any farm stands selling kale right now? - Facebook', 'content': 'Update: sold out of tulips! We should have more soon. . Kale still available! Willett-Stone Farm has Tulips and Kale available!', 'score': 0.40768766, 'raw_content': None}], 'response_time': 0.96, 'request_id': '17346f1b-f5e2-435b-9422-9a948cb48b98'}\n\nProfit & Crop Selection:\n- Plant crops with high local demand and margin.\n- Consider crop rotation to maintain soil fertility.\n- Diversify crops to reduce market risks.\n\nBased on previous farmer questions:\n- HumanMessage: where should I sell kales?\n- AIMessage: Market Prices:\n{'query': 'where should I sell kales?', 'response_time': 0.87, 'follow_up_questions': None, 'answer': None, 'images': [], 'results': [{'url': 'https://budgetmkononi.com/agri-info/finance/finance-kale/finding-market/', 'title': 'Finding market for kales', 'content': 'There are 2 main marketing channels for farmers like yourself to sell your kales: Informal Markets These are the easiest forms of markets to access.', 'score': 0.6912478, 'raw_content': None}, {'url': 'https://www.hobbyfarms.com/kale-farmers-marketing-tips/', 'title': '5 Ways That Farmers Can Better Market Kale', 'content': 'Display methods, growing tactics and value-added products all factor into selling kale, a nutritious green that people love. Because customers do love to see the fresh piles of bunched kale on the market table, as they can identify it from a great distance, it might pull customers into the booth. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens. A great way to market kale is to plant it densely and cut it when it\u2019s young to take advantage of those tender greens.', 'score': 0.55449516, 'raw_content': None}, {'url': 'https://www.facebook.com/groups/marketgardeningsuccess/posts/2109168262783568/', 'title': 'How to sell kale at the market?', 'content': 'We sell a few different varieties of kale, bunches are not by weight but by stem, 8-12 stems a bunch depending on size at the time of', 'score': 0.4883572, 'raw_content': None}], 'request_id': 'a5bec32d-3d70-4ce7-816d-33469f5bb7d1'}\n\nProfit & Crop Selection:\n- Plant crops with high local demand and margin.\n- Consider crop rotation to maintain soil fertility.\n- Diversify crops to reduce market risks.\n\n- Combine market info, weather, and profit advice for planning.\n- Combine market info, weather, and profit advice for planning.\n- Combine market info, weather, and profit advice for planning.\n- Combine market info, weather, and profit advice for planning."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "what crops should I plant for profit?"
+  },
+  {
+    "role": "AIMessage",
+    "content": "High-demand crops: maize, beans, tomatoes\n- These are reliable fallback crops with steady demand.\n\nRecent conversation context:\n- HumanMessage: what are current market prices?...\n- AIMessage: Market Prices:\n{'query': 'current high demand crops in Kenya, market prices, profitable crops Nairob..."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "what are market prices for crops?"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Market Prices:\n{'query': 'current high demand crops in Kenya, market prices, profitable crops Nairobi Mombasa trends', 'follow_up_questions': None, 'answer': None, 'images': [], 'results': [{'url': 'https://www.facebook.com/groups/6664286290366735/posts/9787208354741164/', 'title': 'Which cash crop is now profitable in Kenya? - Facebook', 'content': 'Okra is the most profitable crop in Kenya right now! We sell Seeds and provide market for export at Ksh 220 per kg. Payment is strictly cash on', 'score': 0.9998697, 'raw_content': None}, {'url': 'https://crazykanairofarming.com/farming-news-in-kenya/', 'title': 'Farming News In Kenya 2026 | Prices, Trends & Alerts', 'content': 'Bulb onion farming is one of the most lucrative agribusiness ventures in Kenya today. The demand for onions in major cities like Nairobi, Mombasa, and Kisumu', 'score': 0.99984276, 'raw_content': None}, {'url': 'https://gh-f.org/wp-content/uploads/2021/07/200-profitable-agribusiness-ideas-in-kenya-timothy-angwenyi.pdf', 'title': '[PDF] 200 Profitable Agribusiness Ideas in Kenya', 'content': 'Flower production is one of the fastest growing crop trends in agriculture today with a strong demand for all types of flowers, especially unique and hard', 'score': 0.9996947, 'raw_content': None}], 'response_time': 0.9, 'request_id': 'bcb4fd35-dc50-4288-aee4-43c7b5e9467f'}\n\nProfit & Crop Selection:\n- Plant crops with high local demand and margin.\n- Consider crop rotation to maintain soil fertility.\n- Diversify crops to reduce market risks.\n\nHigh-demand crops: Okra, Onions\n- Focus on these crops for maximum profit margins.\n- Plan planting schedules to align with peak market demand.\n\nRecent conversation context:\n- HumanMessage: what crops should I plant for profit?...\n- AIMessage: High-demand crops: maize, beans, tomatoes\n- These are reliable fallback crops with steady demand.\n\nR..."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "tell me about market prices"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Market Prices:\n{'query': 'current high demand crops in Kenya, market prices, profitable crops Nairobi Mombasa trends', 'follow_up_questions': None, 'answer': None, 'images': [], 'results': [{'url': 'https://crazykanairofarming.com/farming-news-in-kenya/', 'title': 'Farming News In Kenya 2026 | Prices, Trends & Alerts', 'content': 'Bulb onion farming is one of the most lucrative agribusiness ventures in Kenya today. The demand for onions in major cities like Nairobi, Mombasa, and Kisumu', 'score': 0.98586, 'raw_content': None}, {'url': 'https://www.facebook.com/graduatefarmer/posts/10-most-profitable-crops-in-kenya-2025-httpsgraduatefarmercoke20250421top-10-mos/981832364129750/', 'title': '10 Most Profitable Crops in Kenya (2025) https ...', 'content': 'You Google 10 most profitable crops in farming. Tomatoes \u2013 80,000 bob per ton Kales \u2013 40,000 bob per ton. Maize \u2013 5,000 per 90kg bag.', 'score': 0.9832, 'raw_content': None}, {'url': 'https://www.youtube.com/watch?v=OmwPiHWfgDM', 'title': '5 Profitable Crops to Plant in Kenya This February 2026', 'content': 'These are the six best crops that you can manage to plant now and make some good uh profit in the next 1 2 3 months.', 'score': 0.97757, 'raw_content': None}], 'response_time': 1.57, 'request_id': '736283e8-9512-4362-8958-97bad1a8a017'}\n\nProfit & Crop Selection:\n- Plant crops with high local demand and margin.\n- Consider crop rotation to maintain soil fertility.\n- Diversify crops to reduce market risks.\n\nHigh-demand crops: Onions, Maize, Tomatoes\n- Focus on these crops for maximum profit margins.\n- Plan planting schedules to align with peak market demand.\n\nRecent conversation context:\n- HumanMessage: what are market prices for crops?...\n- AIMessage: Market Prices:\n{'query': 'current high demand crops in Kenya, market prices, profitable crops Nairob..."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "how can I maximize profit from crops?"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Market Prices:\n{'query': 'current high demand crops in Kenya, market prices, profitable crops Nairobi Mombasa trends', 'follow_up_questions': None, 'answer': None, 'images': [], 'results': [{'url': 'https://www.facebook.com/groups/6664286290366735/posts/9787208354741164/', 'title': 'Which cash crop is now profitable in Kenya? - Facebook', 'content': 'Okra is the most profitable crop in Kenya right now! We sell Seeds and provide market for export at Ksh 220 per kg. Payment is strictly cash on', 'score': 0.98559, 'raw_content': None}, {'url': 'https://crazykanairofarming.com/farming-news-in-kenya/', 'title': 'Farming News In Kenya 2026 | Prices, Trends & Alerts', 'content': 'Bulb onion farming is one of the most lucrative agribusiness ventures in Kenya today. The demand for onions in major cities like Nairobi, Mombasa, and Kisumu', 'score': 0.9835, 'raw_content': None}, {'url': 'https://www.youtube.com/watch?v=OmwPiHWfgDM', 'title': '5 Profitable Crops to Plant in Kenya This February 2026 - YouTube', 'content': 'If you want to earn money during the dry season, consider planting these crops.', 'score': 0.97604, 'raw_content': None}], 'response_time': 1.82, 'request_id': '58554de7-c685-4d74-8b33-579a74198265'}\n\nProfit & Crop Selection:\n- Plant crops with high local demand and margin.\n- Consider crop rotation to maintain soil fertility.\n- Diversify crops to reduce market risks.\n\nHigh-demand crops: Onions\n- Focus on these crops for maximum profit margins.\n- Plan planting schedules to align with peak market demand.\n\nRecent conversation context:\n- HumanMessage: tell me about market prices...\n- AIMessage: Market Prices:\n{'query': 'current high demand crops in Kenya, market prices, profitable crops Nairob..."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "how do I transport my crops to market?"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Market Prices:\n{'query': 'current high demand crops in Kenya, market prices, profitable crops Nairobi Mombasa trends', 'follow_up_questions': None, 'answer': None, 'images': [], 'results': [{'url': 'https://crazykanairofarming.com/farming-news-in-kenya/', 'title': 'Farming News In Kenya 2026 | Prices, Trends & Alerts', 'content': 'Bulb onion farming is one of the most lucrative agribusiness ventures in Kenya today. The demand for onions in major cities like Nairobi, Mombasa, and Kisumu', 'score': 0.98541, 'raw_content': None}, {'url': 'https://www.facebook.com/graduatefarmer/posts/10-most-profitable-crops-in-kenya-2025-httpsgraduatefarmercoke20250421top-10-mos/981832364129750/', 'title': '10 Most Profitable Crops in Kenya (2025) https://graduatefarmer.co ...', 'content': 'WHY YOU SHOULD PLANT APPLES TODAY: \u2713 High market demand across Kenya\u2713 Apples fetch Ksh 80 \u2013 150 per kg depending on the market\u2713 Long', 'score': 0.98416, 'raw_content': None}, {'url': 'https://www.youtube.com/watch?v=OmwPiHWfgDM', 'title': '5 Profitable Crops to Plant in Kenya This February 2026 - YouTube', 'content': 'If you want to earn money during the dry season, consider planting these crops.', 'score': 0.97692, 'raw_content': None}], 'response_time': 1.6, 'request_id': 'b2f640f2-116e-4d87-b40c-ef3f35c0b8a5'}\n\nLogistics & Transport:\n- Use major highways and reliable routes for transport.\n- Store grains in cool, dry storage to prevent losses.\n- Optimize truckloads and plan delivery times to reduce costs.\n\nHigh-demand crops: Onions\n- Focus on these crops for maximum profit margins.\n- Plan planting schedules to align with peak market demand.\n\nRecent conversation context:\n- HumanMessage: how can I maximize profit from crops?...\n- AIMessage: Market Prices:\n{'query': 'current high demand crops in Kenya, market prices, profitable crops Nairob...\n\nLogistics tip: Plan transportation routes in advance to minimize costs and delays."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "what is the weather forecast for planting?"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Weather & Crop Planning:\n- Monitor rainfall and temperature forecasts.\n- Plant drought-resistant crops if rains are low.\n- Harvest early if rains are delayed or unpredictable.\n\nHigh-demand crops: maize, beans, tomatoes\n- These are reliable fallback crops with steady demand.\n\nRecent conversation context:\n- HumanMessage: how do I transport my crops to market?...\n- AIMessage: Market Prices:\n{'query': 'current high demand crops in Kenya, market prices, profitable crops Nairob...\n\nWeather consideration: Time planting to avoid heavy rains that can damage crops."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "test market"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Market Prices:\n{'query': 'current high demand crops in Kenya, market prices, profitable crops Nairobi Mombasa trends', 'follow_up_questions': None, 'answer': None, 'images': [], 'results': [{'url': 'https://www.facebook.com/groups/6664286290366735/posts/9787208354741164/', 'title': 'Which cash crop is now profitable in Kenya? - Facebook', 'content': 'Okra is the most profitable crop in Kenya right now! We sell Seeds and provide market for export at Ksh 220 per kg. Payment is strictly cash on', 'score': 0.9998697, 'raw_content': None}, {'url': 'https://crazykanairofarming.com/farming-news-in-kenya/', 'title': 'Farming News In Kenya 2026 | Prices, Trends & Alerts', 'content': 'Bulb onion farming is one of the most lucrative agribusiness ventures in Kenya today. The demand for onions in major cities like Nairobi, Mombasa, and Kisumu', 'score': 0.99984276, 'raw_content': None}, {'url': 'https://gh-f.org/wp-content/uploads/2021/07/200-profitable-agribusiness-ideas-in-kenya-timothy-angwenyi.pdf', 'title': '[PDF] 200 Profitable Agribusiness Ideas in Kenya', 'content': 'Flower production is one of the fastest growing crop trends in agriculture today with a strong demand for all types of flowers, especially unique and hard', 'score': 0.9996947, 'raw_content': None}], 'response_time': 1.0, 'request_id': '34556cf0-63af-4648-8601-741635cd0735'}\n\nHigh-demand crops: Onions\n- Focus on these crops for maximum profit margins.\n- Plan planting schedules to align with peak market demand.\n\nRecent conversation context:\n- HumanMessage: what is the weather forecast for planting?...\n- AIMessage: Weather & Crop Planning:\n- Monitor rainfall and temperature forecasts.\n- Plant drought-resistant cro..."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "what crops are profitable?"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Market Prices:\n{'query': 'current high demand crops in Kenya, market prices, profitable crops Nairobi Mombasa trends', 'follow_up_questions': None, 'answer': None, 'images': [], 'results': [{'url': 'https://www.facebook.com/groups/6664286290366735/posts/9787208354741164/', 'title': 'Which cash crop is now profitable in Kenya? - Facebook', 'content': 'Okra is the most profitable crop in Kenya right now! We sell Seeds and provide market for export at Ksh 220 per kg. Payment is strictly cash on', 'score': 0.98578, 'raw_content': None}, {'url': 'https://crazykanairofarming.com/farming-news-in-kenya/', 'title': 'Farming News In Kenya 2026 | Prices, Trends & Alerts', 'content': 'Bulb onion farming is one of the most lucrative agribusiness ventures in Kenya today. The demand for onions in major cities like Nairobi, Mombasa, and Kisumu', 'score': 0.98307, 'raw_content': None}, {'url': 'https://www.youtube.com/watch?v=OmwPiHWfgDM', 'title': '5 Profitable Crops to Plant in Kenya This February 2026 - YouTube', 'content': 'If you want to earn money during the dry season, consider planting these crops.', 'score': 0.97763, 'raw_content': None}], 'response_time': 1.22, 'request_id': 'e88fd633-36fd-49f8-80c2-bf9a3b1c4fb6'}\n\nProfit & Crop Selection:\n- Plant crops with high local demand and margin.\n- Consider crop rotation to maintain soil fertility.\n- Diversify crops to reduce market risks.\n\nHigh-demand crops: Onions\n- Focus on these crops for maximum profit margins.\n- Plan planting schedules to align with peak market demand.\n\nRecent conversation context:\n- HumanMessage: test market...\n- AIMessage: Market Prices:\n{'query': 'current high demand crops in Kenya, market prices, profitable crops Nairob..."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "hello"
+  },
+  {
+    "role": "AIMessage",
+    "content": "High-demand crops: maize, beans, tomatoes\n- These are reliable fallback crops with steady demand.\n\nRecent conversation context:\n- HumanMessage: what crops are profitable?...\n- AIMessage: Market Prices:\n{'query': 'current high demand crops in Kenya, market prices, profitable crops Nairob..."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "what crop should I plant in Nairobi"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Market Prices:\n{'query': 'current high demand crops in Kenya, market prices, profitable crops Nairobi Mombasa trends', 'follow_up_questions': None, 'answer': None, 'images': [], 'results': [{'url': 'https://www.facebook.com/graduatefarmer/posts/10-most-profitable-crops-in-kenya-2025-httpsgraduatefarmercoke20250421top-10-mos/981832364129750/', 'title': '10 Most Profitable Crops in Kenya (2025) https://graduatefarmer.co ...', 'content': 'Okra is the most profitable crop in Kenya right now! We sell Seeds and provide market for export at Ksh 220 per kg. Payment is strictly cash on', 'score': 0.9999509, 'raw_content': None}, {'url': 'https://www.facebook.com/groups/6664286290366735/posts/9787208354741164/', 'title': 'Which cash crop is now profitable in Kenya? - Facebook', 'content': 'Okra is the most profitable crop in Kenya right now! We sell Seeds and provide market for export at Ksh 220 per kg. Payment is strictly cash on', 'score': 0.9998697, 'raw_content': None}, {'url': 'https://crazykanairofarming.com/farming-news-in-kenya/', 'title': 'Farming News In Kenya 2026 | Prices, Trends & Alerts', 'content': 'Bulb onion farming is one of the most lucrative agribusiness ventures in Kenya today. The demand for onions in major cities like Nairobi, Mombasa, and Kisumu', 'score': 0.99984276, 'raw_content': None}], 'response_time': 0.78, 'request_id': '65affaa8-9324-4960-9d58-070d8b975279'}\n\nHigh-demand crops: Onions\n- Focus on these crops for maximum profit margins.\n- Plan planting schedules to align with peak market demand.\n\nRecent conversation context:\n- HumanMessage: hello...\n- AIMessage: High-demand crops: maize, beans, tomatoes\n- These are reliable fallback crops with steady demand.\n\nR..."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "where can I sell my kales?"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Market Prices:\n{'query': 'current high demand crops in Kenya, market prices, profitable crops Nairobi Mombasa trends', 'follow_up_questions': None, 'answer': None, 'images': [], 'results': [{'url': 'https://www.tuko.co.ke/293213-crop-highest-profit-acre-kenya.html', 'title': '20 most profitable crops per acre to grow in Kenya in 2024 - Tuko', 'content': 'Macadamia farming is profitable, provided you understand the market. The nuts have a demand and give huge yields once matured. With a yield of 3', 'score': 0.99997115, 'raw_content': None}, {'url': 'https://www.facebook.com/graduatefarmer/posts/10-most-profitable-crops-in-kenya-2025-httpsgraduatefarmercoke20250421top-10-mos/981832364129750/', 'title': '10 Most Profitable Crops in Kenya (2025) https://graduatefarmer.co ...', 'content': 'Okra is the most profitable crop in Kenya right now! We sell Seeds and provide market for export at Ksh 220 per kg. Payment is strictly cash on', 'score': 0.9999509, 'raw_content': None}, {'url': 'https://www.facebook.com/groups/6664286290366735/posts/9787208354741164/', 'title': 'Which cash crop is now profitable in Kenya? - Facebook', 'content': 'Okra is the most profitable crop in Kenya right now! We sell Seeds and provide market for export at Ksh 220 per kg. Payment is strictly cash on', 'score': 0.9998697, 'raw_content': None}], 'response_time': 0.96, 'request_id': 'ce45ed83-94cc-4e70-8996-c2baaf0828df'}\n\nHigh-demand crops: maize, beans, tomatoes\n- These are reliable fallback crops with steady demand.\n\nRecent conversation context:\n- HumanMessage: what crop should I plant in Nairobi...\n- AIMessage: Market Prices:\n{'query': 'current high demand crops in Kenya, market prices, profitable crops Nairob..."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "what are the market prices?"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Market Prices: Farming News In Kenya 2026 | Prices, Trends & Alerts: Bulb onion farming is one of the most lucrative agribusiness ventures in Kenya today. Which cash crop is now profitable in Kenya? - Facebook: Okra is the most profitable crop in Kenya right now! We sell Seeds and provide market for export at Ksh 220 per kg. Best Crops To Grow Kenya: 220% ROI with Capsicum Farming: Top 10 Most Profitable Crops in Kenya ; RANK 1: CAPSICUM (BELL PEPPERS) ROI: 220% | Profit: KES 280,000/acre/year ; RANK 2: TOMATOES ROI: 180% |.\n\nHigh-demand crops: Tomatoes\n- Focus on these crops for maximum profit margins.\n- Plan planting schedules to align with peak market demand.\n\nRecent conversation context:\n- HumanMessage: where can I sell my kales?...\n- AIMessage: Market Prices:\n{'query': 'current high demand crops in Kenya, market prices, profitable crops Nairob..."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "where should I sell kales?"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Market Prices: Farming News In Kenya 2026 | Prices, Trends & Alerts: Bulb onion farming is one of the most lucrative agribusiness ventures in Kenya today. which is the most profitable farming in Kenya currently?? - Facebook: Okra is the most profitable crop in Kenya right now! We sell Seeds and provide market for export at Ksh 220 per kg. Best Crops To Grow Kenya: 220% ROI with Capsicum Farming: Top 10 Most Profitable Crops in Kenya ; RANK 1: CAPSICUM (BELL PEPPERS) ROI: 220% | Profit: KES 280,000/acre/year ; RANK 2: TOMATOES ROI: 180% |.\n\nHigh-demand crops: Tomatoes, Okra\n- Focus on these crops for maximum profit margins.\n- Plan planting schedules to align with peak market demand.\n\nRecent conversation context:\n- HumanMessage: what are the market prices?...\n- AIMessage: Market Prices: Farming News In Kenya 2026 | Prices, Trends & Alerts: Bulb onion farming is one of th...\n\nBest places to sell:\n- Wakulima Market (Nairobi)\n- Gikomba Market (Nairobi)\n- Kongowea Market (Mombasa)\n- Kibuye Market (Kisumu)"
+  },
+  {
+    "role": "HumanMessage",
+    "content": "where should I sell kales?"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Market Prices: Which cash crop is now profitable in Kenya? - Facebook: Okra is the most profitable crop in Kenya right now! We sell Seeds and provide market for export at Ksh 220 per kg. Farming for Export: 6 High-Demand Crops Kenyan Farmers Should ...: 1. Growing Wealth: Top 5 Most Profitable Crops to Cultivate in Kenya: These five crops\u2014avocado, macadamia nuts, coffee, passion fruit, and onions\u2014hold high potential for profitability.\n\nHigh-demand crops: Onions, Avocado, Okra, Macadamia\n- Focus on these crops for maximum profit margins.\n- Plan planting schedules to align with peak market demand.\n\nRecent conversation context:\n- HumanMessage: where should I sell kales?...\n- AIMessage: Market Prices: Farming News In Kenya 2026 | Prices, Trends & Alerts: Bulb onion farming is one of th...\n\nBest places to sell kale:\n- Wakulima Market (Nairobi)\n- Kongowea Market (Mombasa)"
+  },
+  {
+    "role": "HumanMessage",
+    "content": "where should I sell kales?"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Market Prices: Farming News In Kenya 2026 | Prices, Trends & Alerts: Bulb onion farming is one of the most lucrative agribusiness ventures in Kenya today. which is the most profitable farming in Kenya currently?? - Facebook: Okra is the most profitable crop in Kenya right now! We sell Seeds and provide market for export at Ksh 220 per kg. Best Crops To Grow Kenya: 220% ROI with Capsicum Farming: Top 10 Most Profitable Crops in Kenya ; RANK 1: CAPSICUM (BELL PEPPERS) ROI: 220% | Profit: KES 280,000/acre/year ; RANK 2: TOMATOES ROI: 180% |.\n\nBest places to sell kale:\n- Wakulima Market (Nairobi)\n- Kongowea Market (Mombasa)"
+  },
+  {
+    "role": "HumanMessage",
+    "content": "should I plant maize this season?"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Market Prices: which is the most profitable farming in Kenya currently?? - Facebook: Okra is the most profitable crop in Kenya right now! We sell Seeds and provide market for export at Ksh 220 per kg. 10 Most Profitable Crops in Kenya (2025) https://graduatefarmer.co ...: Okra is the most profitable crop in Kenya right now! We sell Seeds and provide market for export at Ksh 220 per kg. Best Crops To Grow Kenya: 220% ROI with Capsicum Farming: Top 10 Most Profitable Crops in Kenya ; RANK 1: CAPSICUM (BELL PEPPERS) ROI: 220% | Profit: KES 280,000/acre/year ; RANK 2: TOMATOES ROI: 180% |.\n\nPlanting recommendation: High-demand crops are Tomatoes, Okra.\n- Choose the crop with the best margins and plant early in the season.\n- Rotate crops and test soil to keep yields high."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "how do I transport my maize to market?"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Market Prices: Farming News In Kenya 2026 | Prices, Trends & Alerts: Bulb onion farming is one of the most lucrative agribusiness ventures in Kenya today. 10 Most Profitable Crops in Kenya (2025) https://graduatefarmer.co ...: WHY YOU SHOULD PLANT APPLES TODAY: \u2713 High market demand across Kenya\u2713 Apples fetch Ksh 80 \u2013 150 per kg depending on the market\u2713 Long. which is the most profitable farming in Kenya currently?? - Facebook: Okra is the most profitable crop in Kenya right now! We sell Seeds and provide market for export at Ksh 220 per kg.\n\nBest places to sell maize:\n- Wakulima Market (Nairobi)\n- Gikomba Market (Nairobi)\n- Kongowea Market (Mombasa)\n- Kibuye Market (Kisumu)"
+  },
+  {
+    "role": "HumanMessage",
+    "content": "how do I transport my maize to market?"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Logistics & Transport:\n- Use major highways and reliable routes for transport.\n- Store grains in cool, dry storage to prevent losses.\n- Optimize truckloads and plan delivery times to reduce costs."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "what is the weather forecast?"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Weather & Crop Planning:\n- Monitor rainfall and temperature forecasts.\n- Plant drought-resistant crops if rains are low.\n- Harvest early if rains are delayed or unpredictable."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "should I plant maize this season?"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Market Prices: 10 Most Profitable Crops in Kenya (2025) https://graduatefarmer.co ...: WHY YOU SHOULD PLANT APPLES TODAY: \u2713 High market demand across Kenya\u2713 Apples fetch Ksh 80 \u2013 150 per kg depending on the market\u2713 Long. [PDF] 200 Profitable Agribusiness Ideas in Kenya: Flower production is one of the fastest growing crop trends in agriculture today with a strong demand for all types of flowers, especially unique and hard. which is the most profitable farming in Kenya currently?? - Facebook: Okra is the most profitable crop in Kenya right now! We sell Seeds and provide market for export at Ksh 220 per kg.\n\nPlanting recommendation: High-demand crops are Okra.\n- Choose the crop with the best margins and plant early in the season.\n- Rotate crops and test soil to keep yields high."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "what are current market prices?"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Market Prices: Which cash crop is now profitable in Kenya? - Facebook: Okra is the most profitable crop in Kenya right now! We sell Seeds and provide market for export at Ksh 220 per kg. Farming News In Kenya 2026 | Prices, Trends & Alerts: Bulb onion farming is one of the most lucrative agribusiness ventures in Kenya today. [PDF] 200 Profitable Agribusiness Ideas in Kenya: Flower production is one of the fastest growing crop trends in agriculture today with a strong demand for all types of flowers, especially unique and hard.\n\nBest places to sell:\n- Wakulima Market (Nairobi)\n- Gikomba Market (Nairobi)\n- Kongowea Market (Mombasa)\n- Kibuye Market (Kisumu)"
+  },
+  {
+    "role": "HumanMessage",
+    "content": "where should sell my carrots?"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Market Prices: Farming News In Kenya 2026 | Prices, Trends & Alerts: Bulb onion farming is one of the most lucrative agribusiness ventures in Kenya today. Which cash crop is now profitable in Kenya? - Facebook: Okra is the most profitable crop in Kenya right now! We sell Seeds and provide market for export at Ksh 220 per kg. Best Crops To Grow Kenya: 220% ROI with Capsicum Farming: Top 10 Most Profitable Crops in Kenya ; RANK 1: CAPSICUM (BELL PEPPERS) ROI: 220% | Profit: KES 280,000/acre/year ; RANK 2: TOMATOES ROI: 180% |.\n\nBest places to sell:\n- Wakulima Market (Nairobi)\n- Gikomba Market (Nairobi)\n- Kongowea Market (Mombasa)\n- Kibuye Market (Kisumu)"
+  },
+  {
+    "role": "HumanMessage",
+    "content": "where should I seell my tomatoes"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Market Prices: Farming News In Kenya 2026 | Prices, Trends & Alerts: Bulb onion farming is one of the most lucrative agribusiness ventures in Kenya today. 10 Most Profitable Crops in Kenya (2025) https ...: Okra is the most profitable crop in Kenya right now! We sell Seeds and provide market for export at Ksh 220 per kg. Which cash crop is now profitable in Kenya?: Okra is the most profitable crop in Kenya right now! We sell Seeds and provide market for export at Ksh 220 per kg.\n\nBest places to sell tomatoes:\n- Wakulima Market (Nairobi)\n- Kibuye Market (Kisumu)"
+  },
+  {
+    "role": "HumanMessage",
+    "content": "where should I sell my kales"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Market Prices: which is the most profitable farming in Kenya currently?? - Facebook: Okra is the most profitable crop in Kenya right now! We sell Seeds and provide market for export at Ksh 220 per kg. Best Crops To Grow Kenya: 220% ROI with Capsicum Farming: Top 10 Most Profitable Crops in Kenya ; RANK 1: CAPSICUM (BELL PEPPERS) ROI: 220% | Profit: KES 280,000/acre/year ; RANK 2: TOMATOES ROI: 180% |. [PDF] 200 Profitable Agribusiness Ideas in Kenya: Flower production is one of the fastest growing crop trends in agriculture today with a strong demand for all types of flowers, especially unique and hard.\n\nBest places to sell kale:\n- Wakulima Market (Nairobi)\n- Kongowea Market (Mombasa)"
+  },
+  {
+    "role": "HumanMessage",
+    "content": "what should I plant this season"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Market Prices: 10 Most Profitable Crops in Kenya (2025) https://graduatefarmer.co ...: Okra is the most profitable crop in Kenya right now! We sell Seeds and provide market for export at Ksh 220 per kg. 20 most profitable crops per acre to grow in Kenya in 2024 - Tuko: 1. Which cash crop is now profitable in Kenya? - Facebook: Okra is the most profitable crop in Kenya right now! We sell Seeds and provide market for export at Ksh 220 per kg.\n\nPlanting recommendation: High-demand crops are Okra.\n- Choose the crop with the best margins and plant early in the season.\n- Rotate crops and test soil to keep yields high."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "what should I sell in Makueni"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Market Prices: Farming News In Kenya 2026 | Prices, Trends & Alerts: Bulb onion farming is one of the most lucrative agribusiness ventures in Kenya today. [PDF] 200 Profitable Agribusiness Ideas in Kenya: Flower production is one of the fastest growing crop trends in agriculture today with a strong demand for all types of flowers, especially unique and hard. which is the most profitable farming in Kenya currently?? - Facebook: Okra is the most profitable crop in Kenya right now! We sell Seeds and provide market for export at Ksh 220 per kg.\n\nBest places to sell:\n- Wakulima Market (Nairobi)\n- Gikomba Market (Nairobi)\n- Kongowea Market (Mombasa)\n- Kibuye Market (Kisumu)"
+  },
+  {
+    "role": "HumanMessage",
+    "content": "I mean what crop should I sell in Makueni"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Market Prices: which is the most profitable farming in Kenya currently?? - Facebook: Okra is the most profitable crop in Kenya right now! We sell Seeds and provide market for export at Ksh 220 per kg. Growing Wealth: Top 5 Most Profitable Crops to Cultivate in Kenya: These five crops\u2014avocado, macadamia nuts, coffee, passion fruit, and onions\u2014hold high potential for profitability. Best Crops To Grow Kenya: 220% ROI with Capsicum Farming: Top 10 Most Profitable Crops in Kenya ; RANK 1: CAPSICUM (BELL PEPPERS) ROI: 220% | Profit: KES 280,000/acre/year ; RANK 2: TOMATOES ROI: 180% |.\n\nBest places to sell:\n- Wakulima Market (Nairobi)\n- Gikomba Market (Nairobi)\n- Kongowea Market (Mombasa)\n- Kibuye Market (Kisumu)"
+  },
+  {
+    "role": "HumanMessage",
+    "content": "hi"
+  },
+  {
+    "role": "AIMessage",
+    "content": "I can help with planting advice, selling locations, transport logistics, or weather planning. What would you like?"
+  },
+  {
+    "role": "HumanMessage",
+    "content": "who is the president of kenya"
+  },
+  {
+    "role": "AIMessage",
+    "content": "I can help with planting advice, selling locations, transport logistics, or weather planning. What would you like?"
+  },
+  {
+    "role": "HumanMessage",
+    "content": "what are current market prices?"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Onions and Okra are currently in high demand in Nairobi, Mombasa, Kisumu. Prices are moving with demand due to strong demand and export demand.\n\nBest places to sell:\n- Wakulima Market (Nairobi)\n- Gikomba Market (Nairobi)\n- Kongowea Market (Mombasa)\n- Kibuye Market (Kisumu)"
+  },
+  {
+    "role": "HumanMessage",
+    "content": "what should I plant in Makueni?"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Onions and Okra are currently in high demand in Nairobi, Mombasa, Kisumu. Prices are moving with demand due to strong demand and export demand.\n\nFor Makueni, drought-resistant crops like sorghum, millet, green grams, and mangoes perform best due to low rainfall.\nPlanting recommendation: High-demand crops are Onions, Okra.\n- Choose the crop with the best margins and plant early in the season.\n- Rotate crops and test soil to keep yields high."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "what should I plant in Nairobi?"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Okra and Macadamia are currently in high demand in Kenyan urban markets. Prices are moving with demand due to strong demand and export demand.\n\nIn Nairobi, focus on high-demand vegetables and quick-turn crops that sell well in urban markets.\nOkra is profitable because it has high demand in both local and export markets with good margins.\nMacadamia is profitable because it has high export value when mature, suitable for investment crops.\n- Rotate crops and test soil to keep yields high."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "what should I sell?"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Tomatoes and Okra are currently in high demand in Kenyan urban markets. Prices are moving with demand due to export demand.\n\nYou can sell tomatoes, onions, or okra in urban markets, as they move quickly due to daily consumption.\nBest places to sell:\n- Wakulima Market (Nairobi)\n- Gikomba Market (Nairobi)\n- Kongowea Market (Mombasa)\n- Kibuye Market (Kisumu)\nTip: These crops sell fast when brought early in the morning, and buyers pay more for fresh, well-sorted produce."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "where should I sell kales?"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Tomatoes and Okra are currently in high demand in Kenyan urban markets. Prices are moving with demand due to strong demand and export demand.\n\nBest places to sell kale:\n- Wakulima Market (Nairobi)\n- Kongowea Market (Mombasa)"
+  },
+  {
+    "role": "HumanMessage",
+    "content": "what are current market prices?"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Based on current market trends, Onions, Avocado, Okra and Macadamia are in high demand in Nairobi, Mombasa, Kisumu. Prices are moving with demand due to strong demand and export demand.\n\nBest places to sell:\n- Wakulima Market (Nairobi)\n- Gikomba Market (Nairobi)\n- Kongowea Market (Mombasa)\n- Kibuye Market (Kisumu)"
+  },
+  {
+    "role": "HumanMessage",
+    "content": "what should I plant in Makueni?"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Based on current market trends, Tomatoes, Onions and Okra are in high demand in Nairobi, Mombasa, Kisumu. Prices are moving with demand due to strong demand and export demand.\n\nFor your situation in Makueni, drought-resistant crops like sorghum, millet, green grams, and mangoes tend to perform best because rainfall is limited.\nTomatoes is profitable because it has steady demand and multiple harvest cycles per season.\nOnions is profitable because it has consistent demand in urban markets and generally strong prices.\nOkra is profitable because it has high demand in both local and export markets with good margins.\n- Rotate crops and test soil to keep yields high."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "what crop should I seell in Makueni?"
+  },
+  {
+    "role": "AIMessage",
+    "content": "I can help with planting advice, selling locations, transport logistics, or weather planning. What would you like?"
+  },
+  {
+    "role": "HumanMessage",
+    "content": "hello"
+  },
+  {
+    "role": "AIMessage",
+    "content": "I can help with planting advice, selling locations, transport logistics, or weather planning. What would you like?"
+  },
+  {
+    "role": "HumanMessage",
+    "content": "what crop should I seell in Makueni?"
+  },
+  {
+    "role": "AIMessage",
+    "content": "I can help with planting advice, selling locations, transport logistics, or weather planning. What would you like?"
+  },
+  {
+    "role": "HumanMessage",
+    "content": "what crop should I seell in Makueni?"
+  },
+  {
+    "role": "AIMessage",
+    "content": "I can help with planting advice, selling locations, transport logistics, or weather planning. What would you like?"
+  },
+  {
+    "role": "HumanMessage",
+    "content": "what crop should I seell in Makueni?"
+  },
+  {
+    "role": "AIMessage",
+    "content": "I can help with planting advice, selling locations, transport logistics, or weather planning. What would you like?"
+  },
+  {
+    "role": "HumanMessage",
+    "content": "what crop should I seell in Makueni?"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Based on current market trends, Tomatoes, Onions and Okra are in high demand in Nairobi, Mombasa, Kisumu. Prices are moving with demand due to strong demand and export demand.\n\nYou can sell tomatoes, onions, or okra in urban markets, as they move quickly due to daily consumption.\nBest places to sell:\n- Wakulima Market (Nairobi)\n- Gikomba Market (Nairobi)\n- Kongowea Market (Mombasa)\n- Kibuye Market (Kisumu)\nTip: These crops sell fast when brought early in the morning, and buyers pay more for fresh, well-sorted produce."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "What should i plant in makueni?"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Based on current market trends, Onions, Avocado, Okra and Macadamia are currently in high demand in Kenyan urban markets. Prices are moving with demand due to export demand.\n\nFor your situation in Makueni, drought-resistant crops like sorghum, millet, green grams, and mangoes tend to perform best because rainfall is limited and these crops hold value even in dry seasons.\nSorghum is profitable because it has drought tolerant and in demand where rainfall is low.\nMillet is profitable because it has resilient in dry conditions and valued in local diets.\nGreen grams is profitable because it has fast-maturing and profitable in drier zones.\nMangoes is profitable because it has strong local demand and good margins.\nOnions is profitable because it has consistent demand in urban markets and generally strong prices.\nAvocado is profitable because it has export demand keeps prices high, especially in dry seasons.\nOkra is profitable because it has high demand in both local and export markets with good margins.\nMacadamia is profitable because it has high export value when mature, suitable for investment crops.\n- Rotate crops and test soil to keep yields high."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "hi"
+  },
+  {
+    "role": "AIMessage",
+    "content": "I can help with planting advice, selling locations, transport logistics, or weather planning. What would you like?"
+  },
+  {
+    "role": "HumanMessage",
+    "content": "hi"
+  },
+  {
+    "role": "AIMessage",
+    "content": "I can help with planting advice, selling locations, transport logistics, or weather planning. What would you like?"
+  },
+  {
+    "role": "HumanMessage",
+    "content": "what should I plant in makueni?"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Based on current market trends, Okra is currently in high demand in Kenyan urban markets. Prices are moving with demand due to strong demand and export demand.\n\nFor your situation in Makueni, drought-resistant crops like sorghum, millet, green grams, and mangoes tend to perform best because rainfall is limited and these crops hold value even in dry seasons.\nSorghum is profitable because it has drought tolerant and in demand where rainfall is low.\nMillet is profitable because it has resilient in dry conditions and valued in local diets.\nGreen grams is profitable because it has fast-maturing and profitable in drier zones.\nMangoes is profitable because it has strong local demand and good margins.\nOkra is profitable because it has high demand in both local and export markets with good margins.\n- Rotate crops and test soil to keep yields high."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "what should i plant in makueni?"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Based on current market trends, Tomatoes and Okra are currently in high demand in Kenyan urban markets. Prices are moving with demand due to export demand.\n\nFor your situation in Makueni, drought-resistant crops like sorghum, millet, green grams, and mangoes tend to perform best because rainfall is limited and these crops hold value even in dry seasons.\nSorghum is profitable because it has drought tolerant and in demand where rainfall is low.\nMillet is profitable because it has resilient in dry conditions and valued in local diets.\nGreen grams is profitable because it has fast-maturing and profitable in drier zones.\nMangoes is profitable because it has strong local demand and good margins.\nTomatoes is profitable because it has steady demand and multiple harvest cycles per season.\nOkra is profitable because it has high demand in both local and export markets with good margins.\n- Rotate crops and test soil to keep yields high."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "hi"
+  },
+  {
+    "role": "AIMessage",
+    "content": "I can help with planting advice, selling locations, transport logistics, or weather planning. What would you like?"
+  }
+]

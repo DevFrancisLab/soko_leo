@@ -46,8 +46,11 @@ class State(TypedDict):
 # Initialize LLM
 # =========================
 
+# Set Vertex AI API key
+os.environ["GOOGLE_API_KEY"] = os.getenv("VERTEX_AI_API_KEY")
+
 llm = init_chat_model(
-    "groq:llama-3.3-70b-versatile"
+    "google_genai:gemini-1.5-pro"
 )
 
 

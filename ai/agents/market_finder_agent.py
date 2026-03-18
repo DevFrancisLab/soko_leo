@@ -1,7 +1,11 @@
 from tools.tavily_tool import search_tool
 from langchain.chat_models import init_chat_model
+import os
 
-llm = init_chat_model("groq:llama-3.3-70b-versatile")
+# Set Vertex AI API key
+os.environ["GOOGLE_API_KEY"] = os.getenv("VERTEX_AI_API_KEY")
+
+llm = init_chat_model("google_genai:gemini-1.5-pro")
 
 def market_finder_agent(state):
 
