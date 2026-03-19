@@ -9,6 +9,7 @@ from langgraph.prebuilt import ToolNode
 from langgraph.checkpoint.memory import MemorySaver
 from tools.tavily_tool import search_tool
 
+from tools.gemini_llm import gemini_generate
 # Load environment variables
 load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), '.env'))
 
@@ -283,161 +284,33 @@ def ProfitAgent(state: State):
         "- Diversify crops to reduce market risks."
     )
 
+
 def CropRecommendationAgent(state: State, market_data: str):
+    """
+    Use Gemini LLM to generate agricultural recommendations based on market data.
+    """
     last_question = state["messages"][-1].content
-    normalized_question = normalize_question(last_question)
-    recommendations = []
+    
+    prompt = f"""You are SokoLeo, an expert agricultural advisor for Kenyan farmers.
+    
+Farmer's Question: {last_question}
+Current Market Data: {market_data or 'No specific market data provided'}
 
-    # Determine intent from user question (order matters)
-    if contains_keyword(normalized_question, ["transport", "route", "truck", "logistics"]):
-        intent = "transport"
-    elif contains_keyword(normalized_question, ["weather", "rain", "temperature", "forecast"]):
-        intent = "weather"
-    elif contains_keyword(normalized_question, ["plant"]):
-        intent = "plant"
-    elif contains_keyword(normalized_question, ["sell", "market", "where", "price", "demand", "profit"]):
-        intent = "sell"
-    else:
-        intent = None
+Provide specific, practical recommendations including:
+1. Which crops to plant or sell (be specific to the region if mentioned)
+2. Why these crops are profitable right now
+3. Where to sell them for best prices
+4. Practical farming tips
 
-    # Detect location from question for context-aware recommendations
-    location = None
-    for loc in ["Makueni", "Nairobi", "Kisumu"]:
-        if loc.lower() in normalized_question:
-            location = loc
-            break
-
-    # Extract crops from market_data and bias recommendations toward location-suitable crops
-    crops = extract_crop_recommendations(market_data) if market_data else []
-
-    # Location-based crop preference (for planting recommendations)
-    location_crops = {
-        "Makueni": ["Sorghum", "Millet", "Green grams", "Mangoes"],
-        "Nairobi": ["Onions", "Tomatoes", "Okra", "Cabbage"],
-        "Kisumu": ["Rice", "Sugarcane", "Vegetables"],
-    }
-
-    if location and location in location_crops:
-        preferred = [c for c in location_crops[location] if c not in crops]
-        crops = preferred + crops
-    # Respond based on detected intent
-    if intent == "plant":
-        if location:
-            if location == "Makueni":
-                recommendations.append(
-                    "For your situation in Makueni, drought-resistant crops like sorghum, millet, green grams, and mangoes tend to perform best because rainfall is limited and these crops hold value even in dry seasons."
-                )
-            elif location == "Nairobi":
-                recommendations.append(
-                    "For Nairobi, focus on high-demand vegetables like onions and tomatoes that sell quickly in urban markets and often command higher prices because of daily consumer demand."
-                )
-            elif location == "Kisumu":
-                recommendations.append(
-                    "For Kisumu’s humid climate, rice, sugarcane, and vegetables thrive; these crops benefit from year-round moisture and meet steady local demand."
-                )
-
-        if crops:
-            # Provide reasoning for each recommended crop
-            crop_reasons = {
-                "Onions": "consistent demand in urban markets and generally strong prices",
-                "Okra": "high demand in both local and export markets with good margins",
-                "Tomatoes": "steady demand and multiple harvest cycles per season",
-                "Maize": "staple food demand is stable and prices tend to hold",
-                "Beans": "strong domestic demand and good storage life for selling later",
-                "Avocado": "export demand keeps prices high, especially in dry seasons",
-                "Cabbage": "popular in urban markets and has a quick harvest turnaround",
-                "Potatoes": "widely consumed with consistent demand and good yield per acre",
-                "Bananas": "year-round demand and good returns in local markets",
-                "Sorghum": "drought tolerant and in demand where rainfall is low",
-                "Millet": "resilient in dry conditions and valued in local diets",
-                "Green grams": "fast-maturing and profitable in drier zones",
-                "Macadamia": "high export value when mature, suitable for investment crops",
-            }
-
-            for crop in crops:
-                reason = crop_reasons.get(crop, "strong local demand and good margins")
-                recommendations.append(
-                    f"{crop} is profitable because it has {reason}."
-                )
-        else:
-            recommendations.append(
-                "Planting recommendation: Consider maize, beans, or tomatoes based on local demand, as these crops generally have stable prices and good buyer interest."
-            )
-
-        recommendations.append("- Rotate crops and test soil to keep yields high.")
-
-    elif intent == "sell":
-        question_crops = extract_crop_recommendations(last_question)
-        preferred_crop = question_crops[0] if question_crops else None
-
-        # Detect whether the user is asking what to sell vs where to sell
-        wants_what = contains_keyword(last_question, ["what"]) and contains_keyword(last_question, ["sell"])
-        wants_where = contains_keyword(last_question, ["where"]) and contains_keyword(last_question, ["sell"])
-
-        # Common market destinations (fall back for general advice)
-        all_markets = {
-            "default": "Wakulima Market in Nairobi",
-            "tomatoes": "Wakulima Market in Nairobi",
-            "onions": "Gikomba Market in Nairobi",
-            "okra": "Kongowea Market in Mombasa",
-            "kale": "Wakulima Market in Nairobi",
-            "rice": "Kibuye Market in Kisumu",
-        }
-
-        def choose_market(crop: str | None) -> str:
-            if not crop:
-                return all_markets["default"]
-            return all_markets.get(crop.lower(), all_markets["default"])
-
-        # When the user asks what to sell, provide a crop recommendation and where to sell it
-        if wants_what:
-            if preferred_crop:
-                market = choose_market(preferred_crop)
-                recommendations.append(
-                    f"Based on current market demand, you can sell {preferred_crop.lower()} at {market}, where buyers pay more for consistent quality."
-                )
-            else:
-                recommendations.append(
-                    "For good turnover, sell tomatoes or onions in Nairobi markets, where daily demand keeps prices steady and buyers are ready."
-                )
-
-            # Add a quick selling tip for the crop(s)
-            tip_crop = preferred_crop.lower() if preferred_crop else "these crops"
-            recommendations.append(
-                f"Quick tip: {tip_crop.capitalize()} sell fastest when brought early in the morning, and buyers pay more for produce that is clean and well sorted."
-            )
-
-        # When the user asks where to sell, focus on market locations and practicality
-        if wants_where:
-            crop_for_market = preferred_crop or (crops[0] if crops else None)
-            market = choose_market(crop_for_market)
-            if crop_for_market:
-                recommendations.append(
-                    f"For {crop_for_market.lower()}, a top option is {market} because it draws large wholesale buyers who pay premiums for consistent supply."
-                )
-            else:
-                recommendations.append(
-                    f"A reliable option is {market}, as it serves many traders and moves large volumes of vegetables and staples daily."
-                )
-
-            recommendations.append(
-                "Tip: Deliver early (6–8am) and keep produce well packed; buyers pay more for fresh, clean stock."
-            )
-
-    elif intent == "transport":
-        recommendations.append("Transport advice:")
-        recommendations.append("- Use major highways and reliable routes to reduce delays.")
-        recommendations.append("- Plan shipments early in the day to avoid traffic and spoilage.")
-
-    elif intent == "weather":
-        recommendations.append("Weather advice:")
-        recommendations.append("- Plant after the next expected rain window to ensure good germination.")
-        recommendations.append("- Use early-maturing varieties if dry spells are forecast.")
-
-    else:
-        recommendations.append("I can provide specific advice for planting, selling, transport, or weather. Please clarify which you need.")
-
-    return "\n".join(recommendations)
+Be concise and actionable. Focus on profitability and market demand."""
+    
+    response = gemini_generate(prompt.strip())
+    
+    if response:
+        return response
+    
+    # Fallback if Gemini fails
+    return "I'm currently unable to generate detailed recommendations. Please try again in a moment."
 
 # --- Dynamic Routing with Merged Output ---
 def route_agent(state: State):

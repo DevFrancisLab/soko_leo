@@ -414,5 +414,253 @@
   {
     "role": "AIMessage",
     "content": "I can help with planting advice, selling locations, transport logistics, or weather planning. What would you like?"
+  },
+  {
+    "role": "HumanMessage",
+    "content": "hello"
+  },
+  {
+    "role": "AIMessage",
+    "content": "I can help with planting advice, selling locations, transport logistics, or weather planning. What would you like?"
+  },
+  {
+    "role": "HumanMessage",
+    "content": "what can i sell in nairobi to make profit"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Based on current market trends, Okra is currently in high demand in Kenyan urban markets. Prices are moving with demand due to strong demand and export demand.\n\nFor good turnover, sell tomatoes or onions in Nairobi markets, where daily demand keeps prices steady and buyers are ready.\nQuick tip: These crops sell fastest when brought early in the morning, and buyers pay more for produce that is clean and well sorted."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "hello"
+  },
+  {
+    "role": "AIMessage",
+    "content": "I can help with planting advice, selling locations, transport logistics, or weather planning. What would you like?"
+  },
+  {
+    "role": "HumanMessage",
+    "content": "hello"
+  },
+  {
+    "role": "AIMessage",
+    "content": "I can help with planting advice, selling locations, transport logistics, or weather planning. What would you like?"
+  },
+  {
+    "role": "HumanMessage",
+    "content": "who is ruto?"
+  },
+  {
+    "role": "AIMessage",
+    "content": "I can help with planting advice, selling locations, transport logistics, or weather planning. What would you like?"
+  },
+  {
+    "role": "HumanMessage",
+    "content": "hello"
+  },
+  {
+    "role": "AIMessage",
+    "content": "I can help with planting advice, selling locations, transport logistics, or weather planning. What would you like?"
+  },
+  {
+    "role": "HumanMessage",
+    "content": "hi"
+  },
+  {
+    "role": "AIMessage",
+    "content": "I can help with planting advice, selling locations, transport logistics, or weather planning. What would you like?"
+  },
+  {
+    "role": "HumanMessage",
+    "content": "where should I sell tomatoes"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Market Prices: No market data returned.\n\nFor tomatoes, a top option is Wakulima Market in Nairobi because it draws large wholesale buyers who pay premiums for consistent supply.\nTip: Deliver early (6\u20138am) and keep produce well packed; buyers pay more for fresh, clean stock."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "who is ruto"
+  },
+  {
+    "role": "AIMessage",
+    "content": "I can help with planting advice, selling locations, transport logistics, or weather planning. What would you like?"
+  },
+  {
+    "role": "HumanMessage",
+    "content": "hello"
+  },
+  {
+    "role": "AIMessage",
+    "content": "I can help with planting advice, selling locations, transport logistics, or weather planning. What would you like?"
+  },
+  {
+    "role": "HumanMessage",
+    "content": "what should I plant in Makueni"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Market Prices: No market data returned.\n\nFor your situation in Makueni, drought-resistant crops like sorghum, millet, green grams, and mangoes tend to perform best because rainfall is limited and these crops hold value even in dry seasons.\nSorghum is profitable because it has drought tolerant and in demand where rainfall is low.\nMillet is profitable because it has resilient in dry conditions and valued in local diets.\nGreen grams is profitable because it has fast-maturing and profitable in drier zones.\nMangoes is profitable because it has strong local demand and good margins.\n- Rotate crops and test soil to keep yields high."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "hello"
+  },
+  {
+    "role": "AIMessage",
+    "content": "I can help with planting advice, selling locations, transport logistics, or weather planning. What would you like?"
+  },
+  {
+    "role": "HumanMessage",
+    "content": "what should I sell in Kitui"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Market Prices: No market data returned.\n\nFor good turnover, sell tomatoes or onions in Nairobi markets, where daily demand keeps prices steady and buyers are ready.\nQuick tip: These crops sell fastest when brought early in the morning, and buyers pay more for produce that is clean and well sorted."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "what should I plant in Makueni"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Market Prices: No market data returned.\n\nFor your situation in Makueni, drought-resistant crops like sorghum, millet, green grams, and mangoes tend to perform best because rainfall is limited and these crops hold value even in dry seasons.\nSorghum is profitable because it has drought tolerant and in demand where rainfall is low.\nMillet is profitable because it has resilient in dry conditions and valued in local diets.\nGreen grams is profitable because it has fast-maturing and profitable in drier zones.\nMangoes is profitable because it has strong local demand and good margins.\n- Rotate crops and test soil to keep yields high."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "what should I plant in Makueni"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Market Prices: No market data returned.\n\nFor your situation in Makueni, drought-resistant crops like sorghum, millet, green grams, and mangoes tend to perform best because rainfall is limited and these crops hold value even in dry seasons.\nSorghum is profitable because it has drought tolerant and in demand where rainfall is low.\nMillet is profitable because it has resilient in dry conditions and valued in local diets.\nGreen grams is profitable because it has fast-maturing and profitable in drier zones.\nMangoes is profitable because it has strong local demand and good margins.\n- Rotate crops and test soil to keep yields high."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "what should I plant in Makueni"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Based on current market trends, Okra is currently in high demand in Kenyan urban markets. Prices are moving with demand due to strong demand and export demand.\n\nFor your situation in Makueni, drought-resistant crops like sorghum, millet, green grams, and mangoes tend to perform best because rainfall is limited and these crops hold value even in dry seasons.\nSorghum is profitable because it has drought tolerant and in demand where rainfall is low.\nMillet is profitable because it has resilient in dry conditions and valued in local diets.\nGreen grams is profitable because it has fast-maturing and profitable in drier zones.\nMangoes is profitable because it has strong local demand and good margins.\nOkra is profitable because it has high demand in both local and export markets with good margins.\n- Rotate crops and test soil to keep yields high."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "what should I plant in Makueni"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Based on current market trends, Tomatoes and Okra are currently in high demand in Kenyan urban markets. Prices are moving with demand due to export demand.\n\nFor your situation in Makueni, drought-resistant crops like sorghum, millet, green grams, and mangoes tend to perform best because rainfall is limited and these crops hold value even in dry seasons.\nSorghum is profitable because it has drought tolerant and in demand where rainfall is low.\nMillet is profitable because it has resilient in dry conditions and valued in local diets.\nGreen grams is profitable because it has fast-maturing and profitable in drier zones.\nMangoes is profitable because it has strong local demand and good margins.\nTomatoes is profitable because it has steady demand and multiple harvest cycles per season.\nOkra is profitable because it has high demand in both local and export markets with good margins.\n- Rotate crops and test soil to keep yields high."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "hi"
+  },
+  {
+    "role": "AIMessage",
+    "content": "I can help with planting advice, selling locations, transport logistics, or weather planning. What would you like?"
+  },
+  {
+    "role": "HumanMessage",
+    "content": "what is this"
+  },
+  {
+    "role": "AIMessage",
+    "content": "I can help with planting advice, selling locations, transport logistics, or weather planning. What would you like?"
+  },
+  {
+    "role": "HumanMessage",
+    "content": "what should I plant in Makueni"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Based on current market trends, Tomatoes and Okra are currently in high demand in Kenyan urban markets. Prices are moving with demand due to strong demand and export demand.\n\nFor your situation in Makueni, drought-resistant crops like sorghum, millet, green grams, and mangoes tend to perform best because rainfall is limited and these crops hold value even in dry seasons.\nSorghum is profitable because it has drought tolerant and in demand where rainfall is low.\nMillet is profitable because it has resilient in dry conditions and valued in local diets.\nGreen grams is profitable because it has fast-maturing and profitable in drier zones.\nMangoes is profitable because it has strong local demand and good margins.\nTomatoes is profitable because it has steady demand and multiple harvest cycles per season.\nOkra is profitable because it has high demand in both local and export markets with good margins.\n- Rotate crops and test soil to keep yields high."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "what should I plant in Makueni"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Based on current market trends, Tomatoes and Okra are currently in high demand in Kenyan urban markets. Prices are moving with demand due to export demand.\n\nFor your situation in Makueni, drought-resistant crops like sorghum, millet, green grams, and mangoes tend to perform best because rainfall is limited and these crops hold value even in dry seasons.\nSorghum is profitable because it has drought tolerant and in demand where rainfall is low.\nMillet is profitable because it has resilient in dry conditions and valued in local diets.\nGreen grams is profitable because it has fast-maturing and profitable in drier zones.\nMangoes is profitable because it has strong local demand and good margins.\nTomatoes is profitable because it has steady demand and multiple harvest cycles per season.\nOkra is profitable because it has high demand in both local and export markets with good margins.\n- Rotate crops and test soil to keep yields high."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "what should I plant in Makueni"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Based on current market trends, Onions, Avocado, Okra and Macadamia are currently in high demand in Kenyan urban markets. Prices are moving with demand due to export demand.\n\nFor your situation in Makueni, drought-resistant crops like sorghum, millet, green grams, and mangoes tend to perform best because rainfall is limited and these crops hold value even in dry seasons.\nSorghum is profitable because it has drought tolerant and in demand where rainfall is low.\nMillet is profitable because it has resilient in dry conditions and valued in local diets.\nGreen grams is profitable because it has fast-maturing and profitable in drier zones.\nMangoes is profitable because it has strong local demand and good margins.\nOnions is profitable because it has consistent demand in urban markets and generally strong prices.\nAvocado is profitable because it has export demand keeps prices high, especially in dry seasons.\nOkra is profitable because it has high demand in both local and export markets with good margins.\nMacadamia is profitable because it has high export value when mature, suitable for investment crops.\n- Rotate crops and test soil to keep yields high."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "what should I plant in Makueni"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Based on current market trends, Tomatoes and Okra are currently in high demand in Kenyan urban markets. Prices are moving with demand due to export demand.\n\nFor your situation in Makueni, drought-resistant crops like sorghum, millet, green grams, and mangoes tend to perform best because rainfall is limited and these crops hold value even in dry seasons.\nSorghum is profitable because it has drought tolerant and in demand where rainfall is low.\nMillet is profitable because it has resilient in dry conditions and valued in local diets.\nGreen grams is profitable because it has fast-maturing and profitable in drier zones.\nMangoes is profitable because it has strong local demand and good margins.\nTomatoes is profitable because it has steady demand and multiple harvest cycles per season.\nOkra is profitable because it has high demand in both local and export markets with good margins.\n- Rotate crops and test soil to keep yields high."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "what should I plant in Makueni"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Based on current market trends, Maize, Tomatoes, Okra, Kale and Kales are currently in high demand in Kenyan urban markets. Prices are moving with demand due to export demand.\n\nJambo, mkulima! SokoLeo is here to help you maximize your farm's potential in Makueni. Based on current market trends, here are your actionable recommendations:\n\n1.  **Which crops to plant or sell:**\n    *   **Okra:** Your top priority for Makueni. It's well-suited to semi-arid conditions and performs well with less water.\n    *   **Tomatoes & Kale:** Plant these if you have access to reliable irrigation. They are high-value crops with excellent returns.\n    *   **Maize:** Focus on drought-resistant, early-maturing varieties if you anticipate good short rains or have supplemental irrigation.\n\n2.  **Why these crops are profitable right now:**\n    *   All these crops (Okra, Tomatoes, Kale, Maize) are currently experiencing **high demand** in Kenyan urban markets.\n    *   Crucially, **prices are strong and moving upwards due to significant export demand**, promising better returns for your harvest.\n\n3.  **Where to sell them for best prices:**\n    *   **Direct to Urban Markets:** Target major markets in Nairobi (e.g., Marikiti, Wakulima) for better prices. Collaborate with other farmers for cost-effective transport.\n    *   **Aggregators/Exporters:** For consistent quality and volume, seek out local aggregators or export companies that are directly fulfilling the high export demand.\n    *   **Local Hotels & Restaurants:** Supply directly to establishments in larger Makueni towns or nearby urban centers for premium prices, especially for fresh produce like Tomatoes and Kale.\n\n4.  **Practical farming tips:**\n    *   **Water Management (Crucial for Makueni):** Implement drip irrigation, mulching, and water harvesting (e.g., zai pits) to conserve every drop. For maize, choose drought-tolerant varieties like Katumani.\n    *   **Soil Health:** Incorporate plenty of organic manure to improve soil structure and water retention, vital in your region.\n    *   **Staggered Planting:** For Okra, Tomatoes, and Kale, plant in phases (e.g., every 2-3 weeks) to ensure a continuous supply, consistent income, and avoid market gluts.\n    *   **Pest & Disease Scouting:** Regularly check your crops for pests and diseases. Use Integrated Pest Management (IPM) techniques to protect your yield and maintain market quality."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "where can I sell tomatoes in Nairobi for the best price"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Based on current market trends, Tomatoes and Okra are currently in high demand in Kenyan urban markets. Prices are moving with demand due to export demand.\n\nSawa, mkulima! I'm SokoLeo, let's get you the best value for your hard work.\n\n1.  **Crops to Sell/Plant:**\n    *   **Tomatoes:** Keep selling your tomatoes.\n    *   **Okra (Bamia):** Strongly consider planting Okra if you're not already.\n\n2.  **Why These Crops Are Profitable Right Now:**\n    *   **High Demand:** Both Tomatoes and Okra are in very high demand across Kenyan urban markets, including Nairobi.\n    *   **Export Opportunities:** This demand is boosted by increasing export opportunities, which means better prices are filtering down to farmers. Prices are moving with this strong demand.\n\n3.  **Where to Sell in Nairobi for Best Prices:**\n    *   **Direct to Hotels/Restaurants:** Target mid-to-high-end hotels and restaurants (e.g., in Westlands, Kilimani, Upper Hill). They pay premium for consistent quality and freshness. Build relationships directly.\n    *   **Supermarket Chains (Local Branches):** Approach managers of smaller supermarket chains or specific branches of larger ones. They may source directly for quality produce, offering better prices than central distribution.\n    *   **Specialty Greengrocers & Online Food Platforms:** Look for high-end greengrocers or new online fresh produce delivery services in Nairobi. They often cater to a clientele willing to pay more for quality.\n    *   **Wakulima Market/Marikiti (Strategic Selling):** While often wholesale, if you sort your tomatoes and Okra by quality (premium vs. standard) and present them well, you can negotiate better prices for your top-grade produce. Arrive early.\n    *   **Farmer Co-operatives/Aggregators:** Join or find co-operatives that have established links with reliable buyers or export aggregators. They can negotiate bulk prices and streamline logistics.\n\n4.  **Practical Farming Tips for Profitability:**\n    *   **Focus on Quality:** For premium prices, your tomatoes must be firm, blemish-free, and uniformly sized. For Okra, harvest young, tender pods regularly to maintain quality and encourage more yield.\n    *   **Post-Harvest Handling:** This is CRITICAL. Harvest early morning, sort immediately, and pack carefully in well-ventilated crates to prevent bruising and extend shelf life. Quality produce gets better prices.\n    *   **Integrated Pest & Disease Management (IPDM):** Protect your crop from pests and diseases to minimize losses and ensure high yields of market-grade produce.\n    *   **Staggered Planting (Okra):** Plant Okra in batches every 2-3 weeks to ensure a continuous supply for the market, maintaining a steady income stream."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "where should I sell tomatoes in nairobi?"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Based on current market trends, Okra is currently in high demand in Kenyan urban markets. Prices are moving with demand due to strong demand and export demand.\n\nJambo, mkulima! As SokoLeo, I'm here to help you maximize your farm's profit. While tomatoes are a staple, current market data points to a far more lucrative opportunity.\n\nHere are my recommendations:\n\n1.  **Which crops to plant/sell:**\n    *   **Prioritize planting and selling Okra (Bhindi).** While you asked about tomatoes, market trends indicate Okra is experiencing exceptionally high demand in urban markets and for export.\n\n2.  **Why these crops are profitable right now:**\n    *   **High Demand & Export Potential:** Okra is currently a \"hot\" commodity. Its strong demand both locally in urban centers and internationally means prices are very competitive and moving upwards. This offers a much better profit margin compared to other common vegetables currently.\n\n3.  **Where to sell them for best prices:**\n    *   **Nairobi Wholesale Markets:** Target markets like **Marikiti (Wakulu), Muthurwa, and Gikomba** early in the morning. Okra moves quickly here due to high demand.\n    *   **Direct to Retailers/Consumers:** Approach local greengrocers, high-end restaurants, and supermarkets. They often pay premium for consistent, quality supply.\n    *   **Export Agents/Brokers:** Given the \"export demand,\" connect with agricultural export companies or brokers specializing in fresh produce. They can offer better bulk prices for export-grade Okra.\n\n4.  **Practical farming tips (for Okra):**\n    *   **Quality is King:** For urban and export markets, focus on producing tender, blemish-free pods. Harvest when young (2-3 days after flowering) for best quality and tenderness.\n    *   **Consistent Watering:** Okra needs consistent moisture, especially during flowering and pod development. Drip irrigation can be highly effective.\n    *   **Pest & Disease Management:** Regularly scout for pests like aphids and fruit borers, and diseases like powdery mildew. Implement integrated pest management (IPM) practices to minimize damage.\n    *   **Soil Fertility:** Okra thrives in well-drained, fertile soil. Incorporate compost or well-rotted manure before planting.\n    *   **Staggered Planting:** For continuous harvest and consistent supply to the market, consider planting small batches every 2-3 weeks.\n\nFocus on Okra for now, and you'll tap into a very profitable market!"
+  },
+  {
+    "role": "HumanMessage",
+    "content": "hi"
+  },
+  {
+    "role": "AIMessage",
+    "content": "I can help with planting advice, selling locations, transport logistics, or weather planning. What would you like?"
+  },
+  {
+    "role": "HumanMessage",
+    "content": "what should I plant in garissa"
+  },
+  {
+    "role": "AIMessage",
+    "content": "Based on current market trends, Onions, Avocado, Okra and Macadamia are currently in high demand in Kenyan urban markets. Prices are moving with demand due to strong demand and export demand.\n\nJambo mkulima! As SokoLeo, my advice for Garissa, focusing on profitability and your local conditions, is clear:\n\n1.  **Crops to Plant/Sell:**\n    *   **Onions:** This is your top choice. They thrive in hot conditions like Garissa, provided you manage water.\n    *   **Okra:** An excellent second choice. It's highly heat-tolerant and relatively drought-resistant once established, perfect for your region.\n\n2.  **Why These Crops Are Profitable Right Now:**\n    *   **High Demand:** Current market data shows both Onions and Okra are in very high demand across Kenyan urban markets.\n    *   **Rising Prices:** Prices are moving upwards, directly reflecting this strong demand and even export opportunities, meaning better returns for you.\n\n3.  **Where to Sell for Best Prices:**\n    *   **Urban Hubs:** Target major markets in **Nairobi (e.g., Marikiti, Wakulima Market), Mombasa, and Kisumu.** These are where the high demand and better prices are.\n    *   **Direct to Buyers:** Consider selling directly to hotels, restaurants, and supermarkets in urban areas for potentially higher margins.\n    *   **Aggregators:** Connect with large-scale buyers or aggregators who can transport your produce to these lucrative urban markets.\n\n4.  **Practical Farming Tips for Garissa:**\n    *   **Water Management is Key:** Garissa is hot. Implement **drip irrigation** for onions and okra to maximize water efficiency and conserve this precious resource. Mulch around plants to reduce evaporation.\n    *   **Soil Improvement:** Garissa soils can be challenging. Incorporate plenty of well-rotted **organic manure or compost** to improve soil structure, water retention, and fertility.\n    *   **Choose Heat-Tolerant Varieties:** Select onion and okra varieties specifically bred to perform well in high temperatures. Your local agricultural extension officer can advise on specific suitable varieties.\n    *   **Pest & Disease Scouting:** Hot climates can lead to specific pest challenges. Regularly inspect your crops and implement integrated pest management (IPM) strategies.\n    *   **Staggered Planting:** For a continuous harvest and supply, consider planting small batches every few weeks. This helps you meet demand consistently and reduces risk."
+  },
+  {
+    "role": "HumanMessage",
+    "content": "who is ruto?"
+  },
+  {
+    "role": "AIMessage",
+    "content": "I can help with planting advice, selling locations, transport logistics, or weather planning. What would you like?"
+  },
+  {
+    "role": "HumanMessage",
+    "content": "niuze nini makueini"
+  },
+  {
+    "role": "AIMessage",
+    "content": "I can help with planting advice, selling locations, transport logistics, or weather planning. What would you like?"
+  },
+  {
+    "role": "HumanMessage",
+    "content": "sasa"
+  },
+  {
+    "role": "AIMessage",
+    "content": "I can help with planting advice, selling locations, transport logistics, or weather planning. What would you like?"
   }
 ]
