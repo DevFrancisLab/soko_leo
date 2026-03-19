@@ -1,5 +1,5 @@
 # agents/market_agent.py
-from tools.tavily_tool import search_tool
+from ai.tools.tavily_tool import search_tool
 from langchain_core.messages import AIMessage
 
 def MarketAgent(state: dict):

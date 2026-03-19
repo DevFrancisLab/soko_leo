@@ -27,16 +27,6 @@ def load_env():
                     os.environ.setdefault(key, value.strip('"\''))
 
 
-# Load environment variables
-load_env()
-
-# Get API key
-API_KEY = os.getenv("VERTEX_AI_API_KEY")
-
-if not API_KEY:
-    print("Warning: VERTEX_AI_API_KEY not found in environment")
-
-
 def gemini_generate(prompt: str) -> str:
     """
     Generate text using Google Gemini API.
@@ -47,15 +37,20 @@ def gemini_generate(prompt: str) -> str:
     Returns:
         str: The generated text response, or empty string if generation fails
     """
-    if not API_KEY:
-        print("Error: VERTEX_AI_API_KEY not configured")
+    # Reload .env on each call to ensure the key is available even if the
+    # module was imported before the environment was populated.
+    load_env()
+
+    api_key = os.getenv("VERTEX_AI_API_KEY") or os.getenv("GOOGLE_API_KEY") or os.getenv("GEMINI_API_KEY")
+    if not api_key:
+        print("Error: VERTEX_AI_API_KEY/GREENI_API_KEY not configured")
         return ""
     
     try:
         import google.generativeai as genai
         
         # Configure the API
-        genai.configure(api_key=API_KEY)
+        genai.configure(api_key=api_key)
         
         # Create model and generate content
         model = genai.GenerativeModel("gemini-2.5-flash")

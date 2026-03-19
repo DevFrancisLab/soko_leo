@@ -1,5 +1,5 @@
 import re
-from tools.tavily_tool import search_tool
+from ai.tools.tavily_tool import search_tool
 
 def market_price_agent(query: str) -> str:
     """

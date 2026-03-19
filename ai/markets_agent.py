@@ -7,9 +7,9 @@ from langgraph.graph.message import add_messages
 from langchain_core.messages import HumanMessage, AIMessage
 from langgraph.prebuilt import ToolNode
 from langgraph.checkpoint.memory import MemorySaver
-from tools.tavily_tool import search_tool
+from ai.tools.tavily_tool import search_tool
 
-from tools.gemini_llm import gemini_generate
+from ai.tools.gemini_llm import gemini_generate
 # Load environment variables
 load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), '.env'))
 
@@ -368,28 +368,49 @@ builder.add_edge("dynamic_router", END)
 graph = builder.compile(checkpointer=MemorySaver())
 
 # --- Interactive Loop ---
-print("\n🌽 SokoLeo AI Market System with Merged Multi-Agent Output")
-print("Type 'exit' to quit.\n")
 
-while True:
-    question = input("Farmer: ")
-    if question.lower() == "exit":
-        break
+def get_ai_response(question: str, location: str = "Kenya", season: str = "current") -> str:
+    """Return the merged response for a user question.
+
+    This wraps the existing LangGraph StateGraph pipeline and provides a
+    simple interface for external callers (e.g., API endpoints).
+    """
 
     state = {
         "messages": [HumanMessage(content=question)],
-        "location": "Kenya",
-        "season": "current"
+        "location": location,
+        "season": season,
     }
 
-    response = graph.invoke(state, config={"configurable": {"thread_id": "farmer_session"}})
-    answer = response["messages"][-1].content
+    try:
+        response = graph.invoke(state, config={"configurable": {"thread_id": "api_call"}})
+        return response["messages"][-1].content
+    except Exception as e:
+        # Log/error handling can be improved later
+        print(f"[AI] Error generating response: {e}")
+        return "Sorry, I could not generate a response right now."
 
-    print("\nSokoLeo:\n")
-    print(answer)
-    print()
 
-    # Update memory
-    conversation_history.append(HumanMessage(content=question))
-    conversation_history.append(AIMessage(content=answer))
-    save_memory(conversation_history)
+def main() -> None:
+    print("\n🌽 SokoLeo AI Market System with Merged Multi-Agent Output")
+    print("Type 'exit' to quit.\n")
+
+    while True:
+        question = input("Farmer: ")
+        if question.lower() == "exit":
+            break
+
+        answer = get_ai_response(question)
+
+        print("\nSokoLeo:\n")
+        print(answer)
+        print()
+
+        # Update memory
+        conversation_history.append(HumanMessage(content=question))
+        conversation_history.append(AIMessage(content=answer))
+        save_memory(conversation_history)
+
+
+if __name__ == "__main__":
+    main()
