@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.swp
+
+# Environment variables
+*.env
+
+# Logs
+*.log
+
+# IDEs
+.vscode/
+.idea/
+
+# Build
+dist/
+build/
+
+# Node
+node_modules/
+
+# Django
+db.sqlite3
+
+# Coverage
+htmlcov/
+.coverage
+
+# Generated
+*.pyc
+
+# Secrets
+*.pem
+
