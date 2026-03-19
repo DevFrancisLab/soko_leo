@@ -225,3 +225,7 @@ xxhash==3.6.0
 yarl==1.23.0
 yt-dlp==2025.4.30
 zstandard==0.25.0
+
+# Runtime dependencies for production (Cloud Run)
+gunicorn==22.1.2
+whitenoise==1.4.1
