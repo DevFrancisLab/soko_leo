@@ -43,7 +43,7 @@ def gemini_generate(prompt: str) -> str:
 
     api_key = os.getenv("VERTEX_AI_API_KEY") or os.getenv("GOOGLE_API_KEY") or os.getenv("GEMINI_API_KEY")
     if not api_key:
-        print("Error: VERTEX_AI_API_KEY/GREENI_API_KEY not configured")
+        print("Error: VERTEX_AI_API_KEY/GOOGLE_API_KEY/GEMINI_API_KEY not configured")
         return ""
     
     try:
@@ -53,7 +53,7 @@ def gemini_generate(prompt: str) -> str:
         genai.configure(api_key=api_key)
         
         # Create model and generate content
-        model = genai.GenerativeModel("gemini-2.5-flash")
+        model = genai.GenerativeModel("gemini-1.5-flash")
         response = model.generate_content(prompt)
         
         # Extract and return text

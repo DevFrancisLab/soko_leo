@@ -23,6 +23,10 @@ api.interceptors.response.use(
   (response) => response,
   async (error) => {
     if (error.response?.status === 401 && !error.config._retry) {
+      // Skip retry for login endpoint
+      if (error.config.url.includes('/accounts/login/')) {
+        return Promise.reject(error);
+      }
       error.config._retry = true;
       const refreshToken = localStorage.getItem('refresh_token');
       if (refreshToken) {
@@ -33,7 +37,10 @@ api.interceptors.response.use(
           error.config.headers.Authorization = `Bearer ${access}`;
           return api(error.config);
         } catch (refreshError) {
-          // Refresh failed, reject the error
+          // Refresh failed, clear tokens
+          localStorage.removeItem('access_token');
+          localStorage.removeItem('refresh_token');
+          return Promise.reject(refreshError);
         }
       }
     }

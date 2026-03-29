@@ -21,6 +21,7 @@ class AIChatView(APIView):
         if not question:
             return Response({"detail": "question is required."}, status=status.HTTP_400_BAD_REQUEST)
 
+        print(f"[DEBUG] AI Chat request: {question}")
         location = request.data.get("location", "Kenya")
         season = request.data.get("season", "current")
 
